@@ -1,0 +1,1869 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Social App\\Social App Graduation Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|g:\\social app\\social app graduation project\\graduation project\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|solutionrelative:graduation project\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|g:\\social app\\social app graduation project\\graduation project\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|solutionrelative:graduation project\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9718D623-5AB1-4C6A-9D0F-F64235DEDC6B}|Service Layer\\Service Layer.csproj|g:\\social app\\social app graduation project\\service layer\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9718D623-5AB1-4C6A-9D0F-F64235DEDC6B}|Service Layer\\Service Layer.csproj|solutionrelative:service layer\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9718D623-5AB1-4C6A-9D0F-F64235DEDC6B}|Service Layer\\Service Layer.csproj|g:\\social app\\social app graduation project\\service layer\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9718D623-5AB1-4C6A-9D0F-F64235DEDC6B}|Service Layer\\Service Layer.csproj|solutionrelative:service layer\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9718D623-5AB1-4C6A-9D0F-F64235DEDC6B}|Service Layer\\Service Layer.csproj|g:\\social app\\social app graduation project\\service layer\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9718D623-5AB1-4C6A-9D0F-F64235DEDC6B}|Service Layer\\Service Layer.csproj|solutionrelative:service layer\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9718D623-5AB1-4C6A-9D0F-F64235DEDC6B}|Service Layer\\Service Layer.csproj|g:\\social app\\social app graduation project\\service layer\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9718D623-5AB1-4C6A-9D0F-F64235DEDC6B}|Service Layer\\Service Layer.csproj|solutionrelative:service layer\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|g:\\social app\\social app graduation project\\graduation project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|solutionrelative:graduation project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\data transfer object\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\data transfer object\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\inetrfaces\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\inetrfaces\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|g:\\social app\\social app graduation project\\graduation project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|solutionrelative:graduation project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9718D623-5AB1-4C6A-9D0F-F64235DEDC6B}|Service Layer\\Service Layer.csproj|g:\\social app\\social app graduation project\\service layer\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9718D623-5AB1-4C6A-9D0F-F64235DEDC6B}|Service Layer\\Service Layer.csproj|solutionrelative:service layer\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|g:\\social app\\social app graduation project\\graduation project\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|solutionrelative:graduation project\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\entities\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\entities\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\entities\\commentspecificationparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\entities\\commentspecificationparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\data transfer object\\inputupdateprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\data transfer object\\inputupdateprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\data transfer object\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\data transfer object\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\context\\identitydatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\context\\identitydatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\context\\identitycontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\context\\identitycontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\context\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\context\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\data transfer object\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\data transfer object\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\data transfer object\\userpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\data transfer object\\userpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\data transfer object\\uploadanddeleteimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\data transfer object\\uploadanddeleteimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\data transfer object\\updatepostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\data transfer object\\updatepostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\data transfer object\\returnusersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\data transfer object\\returnusersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\data transfer object\\returnlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\data transfer object\\returnlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\data transfer object\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\data transfer object\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\data transfer object\\inputpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\data transfer object\\inputpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\data transfer object\\inputfollowerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\data transfer object\\inputfollowerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\data transfer object\\inputcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\data transfer object\\inputcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\data transfer object\\forgetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\data transfer object\\forgetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\data transfer object\\deletepostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\data transfer object\\deletepostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\data transfer object\\commentsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\data transfer object\\commentsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\data transfer object\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\data transfer object\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|g:\\social app\\social app graduation project\\graduation project\\extensions\\dbintializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|solutionrelative:graduation project\\extensions\\dbintializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\inetrfaces\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\inetrfaces\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9718D623-5AB1-4C6A-9D0F-F64235DEDC6B}|Service Layer\\Service Layer.csproj|g:\\social app\\social app graduation project\\service layer\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9718D623-5AB1-4C6A-9D0F-F64235DEDC6B}|Service Layer\\Service Layer.csproj|solutionrelative:service layer\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\inetrfaces\\services\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\inetrfaces\\services\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|g:\\social app\\social app graduation project\\graduation project\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|solutionrelative:graduation project\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|g:\\social app\\social app graduation project\\graduation project\\controllers\\likecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|solutionrelative:graduation project\\controllers\\likecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|g:\\social app\\social app graduation project\\graduation project\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|solutionrelative:graduation project\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|g:\\social app\\social app graduation project\\graduation project\\controllers\\followingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|solutionrelative:graduation project\\controllers\\followingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|g:\\social app\\social app graduation project\\graduation project\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|solutionrelative:graduation project\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\inetrfaces\\services\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\inetrfaces\\services\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9718D623-5AB1-4C6A-9D0F-F64235DEDC6B}|Service Layer\\Service Layer.csproj|g:\\social app\\social app graduation project\\service layer\\followingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9718D623-5AB1-4C6A-9D0F-F64235DEDC6B}|Service Layer\\Service Layer.csproj|solutionrelative:service layer\\followingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\inetrfaces\\repositries\\iuserfollowersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\inetrfaces\\repositries\\iuserfollowersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\inetrfaces\\services\\ifollowingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\inetrfaces\\services\\ifollowingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\inetrfaces\\services\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\inetrfaces\\services\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\data transfer object\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\data transfer object\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\specifications\\commentspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\specifications\\commentspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9718D623-5AB1-4C6A-9D0F-F64235DEDC6B}|Service Layer\\Service Layer.csproj|g:\\social app\\social app graduation project\\service layer\\likeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9718D623-5AB1-4C6A-9D0F-F64235DEDC6B}|Service Layer\\Service Layer.csproj|solutionrelative:service layer\\likeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\specifications\\postspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\specifications\\postspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9718D623-5AB1-4C6A-9D0F-F64235DEDC6B}|Service Layer\\Service Layer.csproj|g:\\social app\\social app graduation project\\service layer\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9718D623-5AB1-4C6A-9D0F-F64235DEDC6B}|Service Layer\\Service Layer.csproj|solutionrelative:service layer\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\entities\\postspecificationparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\entities\\postspecificationparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\specifications\\userfollowersspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\specifications\\userfollowersspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\inetrfaces\\services\\ilikeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\inetrfaces\\services\\ilikeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|g:\\social app\\social app graduation project\\graduation project\\extensions\\appservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|solutionrelative:graduation project\\extensions\\appservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\data transfer object\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\data transfer object\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\specifications\\likepostspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\specifications\\likepostspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\specifications\\likecommentspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\specifications\\likecommentspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\configurations\\likepostconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\configurations\\likepostconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\configurations\\likecommentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\configurations\\likecommentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Social App\\New folder\\Repository Layer\\Migrations\\Data\\20241021093346_Add Like Post and Comment Tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\entities\\likecomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\entities\\likecomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\entities\\likepost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\entities\\likepost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\entities\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\entities\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|g:\\social app\\social app graduation project\\graduation project\\extensions\\identityservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|solutionrelative:graduation project\\extensions\\identityservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|g:\\social app\\social app graduation project\\graduation project\\erorrs\\customexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|solutionrelative:graduation project\\erorrs\\customexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\repositries\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\repositries\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9718D623-5AB1-4C6A-9D0F-F64235DEDC6B}|Service Layer\\Service Layer.csproj|g:\\social app\\social app graduation project\\service layer\\service layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9718D623-5AB1-4C6A-9D0F-F64235DEDC6B}|Service Layer\\Service Layer.csproj|solutionrelative:service layer\\service layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\data transfer object\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\data transfer object\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\repositries\\userfollowersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\repositries\\userfollowersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\specifications\\basespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\specifications\\basespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Social App\\New folder\\Repository Layer\\Migrations\\Data\\20241020042103_Add DateTime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\entities\\userfollowers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\entities\\userfollowers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|g:\\social app\\social app graduation project\\graduation project\\utility\\imageinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|solutionrelative:graduation project\\utility\\imageinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|g:\\social app\\social app graduation project\\graduation project\\utility\\imagesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|solutionrelative:graduation project\\utility\\imagesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\inetrfaces\\services\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\inetrfaces\\services\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\configurations\\notificationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\configurations\\notificationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\specifications\\notificationspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\specifications\\notificationspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\configurations\\commentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\configurations\\commentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Social App\\New folder\\Repository Layer\\Migrations\\Data\\20241019084044_Add Notification Module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\specifications\\specificationevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\specifications\\specificationevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\inetrfaces\\ispecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\inetrfaces\\ispecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\configurations\\userfollowersconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\configurations\\userfollowersconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\inetrfaces\\repositries\\igenericrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\inetrfaces\\repositries\\igenericrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Social App\\New folder\\Repository Layer\\Migrations\\Data\\20241015075612_Add Following Table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\core layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\core layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\migrations\\data\\20241010082429_add post table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\migrations\\data\\20241010082429_add post table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\migrations\\data\\datacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\migrations\\data\\datacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\migrations\\data\\20241006094231_inatial create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\migrations\\data\\20241006094231_inatial create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Social App\\New folder\\Repository Layer\\Migrations\\Data\\20241012085729_Add Comment Table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Social App\\New folder\\Repository Layer\\Migrations\\Data\\20241012085611_Add Comment Table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Social App\\New folder\\Repository Layer\\Migrations\\Data\\20241012085435_Add Comment Table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\migrations\\20241006092626_add identity tabels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\migrations\\20241006092626_add identity tabels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\migrations\\identitydatacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\migrations\\identitydatacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|g:\\social app\\social app graduation project\\graduation project\\erorrs\\apiexcepthionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|solutionrelative:graduation project\\erorrs\\apiexcepthionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|g:\\social app\\social app graduation project\\graduation project\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|solutionrelative:graduation project\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|g:\\social app\\social app graduation project\\graduation project\\extensions\\swaggerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA99540-7EF8-4C2A-BFDD-B9D67A2BF9B9}|Graduation Project\\Social App.csproj|solutionrelative:graduation project\\extensions\\swaggerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|g:\\social app\\social app graduation project\\core layer\\inetrfaces\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF0A204-19FC-4693-837D-21B5B720E426}|Core Layer\\Core Layer.csproj|solutionrelative:core layer\\inetrfaces\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\migrations\\data\\20241012100802_update comment table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\migrations\\data\\20241012100802_update comment table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\migrations\\data\\20241012100135_add comment table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\migrations\\data\\20241012100135_add comment table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\migrations\\data\\20241015080134_add is following property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\migrations\\data\\20241015080134_add is following property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\migrations\\data\\20241015075859_add following table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\migrations\\data\\20241015075859_add following table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\migrations\\data\\20241021093556_add like post and comment tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\migrations\\data\\20241021093556_add like post and comment tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\migrations\\data\\20241020042241_add datetime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\migrations\\data\\20241020042241_add datetime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\migrations\\data\\20241019094243_add column isread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\migrations\\data\\20241019094243_add column isread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\migrations\\data\\20241019084234_add notification module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\migrations\\data\\20241019084234_add notification module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\migrations\\20250210053759_isblindadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\migrations\\20250210053759_isblindadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|g:\\social app\\social app graduation project\\repository layer\\migrations\\data\\20250210053511_isblindadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F375C6-89ED-4F72-AB48-F7301EDEA33B}|Repository Layer\\Repository Layer.csproj|solutionrelative:repository layer\\migrations\\data\\20250210053511_isblindadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 69,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "20250210053759_IsBlindAdded.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\20250210053759_IsBlindAdded.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Migrations\\20250210053759_IsBlindAdded.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\20250210053759_IsBlindAdded.cs",
+              "RelativeToolTip": "Repository Layer\\Migrations\\20250210053759_IsBlindAdded.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAcwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T05:38:00.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "20250210053511_IsBlindAdded.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\Data\\20250210053511_IsBlindAdded.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Migrations\\Data\\20250210053511_IsBlindAdded.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\Data\\20250210053511_IsBlindAdded.cs",
+              "RelativeToolTip": "Repository Layer\\Migrations\\Data\\20250210053511_IsBlindAdded.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T05:35:12.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IdentityDataContext.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Context\\IdentityDataContext.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Context\\IdentityDataContext.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Context\\IdentityDataContext.cs",
+              "RelativeToolTip": "Repository Layer\\Context\\IdentityDataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T10:22:32.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Entities\\Identity\\AppUser.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Entities\\Identity\\AppUser.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Entities\\Identity\\AppUser.cs",
+              "RelativeToolTip": "Core Layer\\Entities\\Identity\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T10:17:54.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "LikeController.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Controllers\\LikeController.cs",
+              "RelativeDocumentMoniker": "Graduation Project\\Controllers\\LikeController.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Controllers\\LikeController.cs",
+              "RelativeToolTip": "Graduation Project\\Controllers\\LikeController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:50:59.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "LikePostSpecification.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Specifications\\LikePostSpecification.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Specifications\\LikePostSpecification.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Specifications\\LikePostSpecification.cs",
+              "RelativeToolTip": "Repository Layer\\Specifications\\LikePostSpecification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T10:29:01.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "LikeCommentSpecification.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Specifications\\LikeCommentSpecification.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Specifications\\LikeCommentSpecification.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Specifications\\LikeCommentSpecification.cs",
+              "RelativeToolTip": "Repository Layer\\Specifications\\LikeCommentSpecification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T10:21:20.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "LikeService.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Service Layer\\LikeService.cs",
+              "RelativeDocumentMoniker": "Service Layer\\LikeService.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Service Layer\\LikeService.cs",
+              "RelativeToolTip": "Service Layer\\LikeService.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAAAIUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T09:54:35.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ILikeService.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Inetrfaces\\Services\\ILikeService.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Inetrfaces\\Services\\ILikeService.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Inetrfaces\\Services\\ILikeService.cs",
+              "RelativeToolTip": "Core Layer\\Inetrfaces\\Services\\ILikeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T09:50:12.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "20241021093556_Add Like Post and Comment Tables.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\Data\\20241021093556_Add Like Post and Comment Tables.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Migrations\\Data\\20241021093556_Add Like Post and Comment Tables.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\Data\\20241021093556_Add Like Post and Comment Tables.cs",
+              "RelativeToolTip": "Repository Layer\\Migrations\\Data\\20241021093556_Add Like Post and Comment Tables.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T09:35:56.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "20241021093346_Add Like Post and Comment Tables.cs",
+              "DocumentMoniker": "G:\\Social App\\New folder\\Repository Layer\\Migrations\\Data\\20241021093346_Add Like Post and Comment Tables.cs",
+              "RelativeDocumentMoniker": "..\\New folder\\Repository Layer\\Migrations\\Data\\20241021093346_Add Like Post and Comment Tables.cs",
+              "ToolTip": "G:\\Social App\\New folder\\Repository Layer\\Migrations\\Data\\20241021093346_Add Like Post and Comment Tables.cs",
+              "RelativeToolTip": "..\\New folder\\Repository Layer\\Migrations\\Data\\20241021093346_Add Like Post and Comment Tables.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAUwFsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T09:33:46.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "LikeCommentConfiguration.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Configurations\\LikeCommentConfiguration.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Configurations\\LikeCommentConfiguration.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Configurations\\LikeCommentConfiguration.cs",
+              "RelativeToolTip": "Repository Layer\\Configurations\\LikeCommentConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T09:28:05.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "LikePostConfigurations.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Configurations\\LikePostConfigurations.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Configurations\\LikePostConfigurations.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Configurations\\LikePostConfigurations.cs",
+              "RelativeToolTip": "Repository Layer\\Configurations\\LikePostConfigurations.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvxgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T09:21:30.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "LikeComment.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Entities\\LikeComment.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Entities\\LikeComment.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Entities\\LikeComment.cs",
+              "RelativeToolTip": "Core Layer\\Entities\\LikeComment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T09:18:30.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "LikePost.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Entities\\LikePost.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Entities\\LikePost.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Entities\\LikePost.cs",
+              "RelativeToolTip": "Core Layer\\Entities\\LikePost.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T09:17:36.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Like.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Entities\\Like.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Entities\\Like.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Entities\\Like.cs",
+              "RelativeToolTip": "Core Layer\\Entities\\Like.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T09:16:35.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ResetPasswordDto.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\ResetPasswordDto.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Data Transfer Object\\ResetPasswordDto.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\ResetPasswordDto.cs",
+              "RelativeToolTip": "Core Layer\\Data Transfer Object\\ResetPasswordDto.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAYwBkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T06:58:00.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ForgetPasswordDto.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\ForgetPasswordDto.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Data Transfer Object\\ForgetPasswordDto.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\ForgetPasswordDto.cs",
+              "RelativeToolTip": "Core Layer\\Data Transfer Object\\ForgetPasswordDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T06:46:10.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Response.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\Response.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Data Transfer Object\\Response.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\Response.cs",
+              "RelativeToolTip": "Core Layer\\Data Transfer Object\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T10:34:44.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Service Layer\\EmailService.cs",
+              "RelativeDocumentMoniker": "Service Layer\\EmailService.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Service Layer\\EmailService.cs",
+              "RelativeToolTip": "Service Layer\\EmailService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAswBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T10:15:29.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Inetrfaces\\Services\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Inetrfaces\\Services\\IEmailService.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Inetrfaces\\Services\\IEmailService.cs",
+              "RelativeToolTip": "Core Layer\\Inetrfaces\\Services\\IEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T10:13:58.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Email.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Email.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Email.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Email.cs",
+              "RelativeToolTip": "Core Layer\\Email.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T10:10:31.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InputUpdateProfileDto.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\InputUpdateProfileDto.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Data Transfer Object\\InputUpdateProfileDto.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\InputUpdateProfileDto.cs",
+              "RelativeToolTip": "Core Layer\\Data Transfer Object\\InputUpdateProfileDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T07:45:51.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserProfileDto.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\UserProfileDto.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Data Transfer Object\\UserProfileDto.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\UserProfileDto.cs",
+              "RelativeToolTip": "Core Layer\\Data Transfer Object\\UserProfileDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T06:47:37.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "20241020042241_Add DateTime.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\Data\\20241020042241_Add DateTime.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Migrations\\Data\\20241020042241_Add DateTime.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\Data\\20241020042241_Add DateTime.cs",
+              "RelativeToolTip": "Repository Layer\\Migrations\\Data\\20241020042241_Add DateTime.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAUwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T04:22:41.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "20241020042103_Add DateTime.cs",
+              "DocumentMoniker": "G:\\Social App\\New folder\\Repository Layer\\Migrations\\Data\\20241020042103_Add DateTime.cs",
+              "RelativeDocumentMoniker": "..\\New folder\\Repository Layer\\Migrations\\Data\\20241020042103_Add DateTime.cs",
+              "ToolTip": "G:\\Social App\\New folder\\Repository Layer\\Migrations\\Data\\20241020042103_Add DateTime.cs",
+              "RelativeToolTip": "..\\New folder\\Repository Layer\\Migrations\\Data\\20241020042103_Add DateTime.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T04:21:03.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "Graduation Project\\Controllers\\NotificationController.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "Graduation Project\\Controllers\\NotificationController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAswAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T09:59:22.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "20241019094243_Add Column IsRead.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\Data\\20241019094243_Add Column IsRead.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Migrations\\Data\\20241019094243_Add Column IsRead.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\Data\\20241019094243_Add Column IsRead.cs",
+              "RelativeToolTip": "Repository Layer\\Migrations\\Data\\20241019094243_Add Column IsRead.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T09:42:43.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "NotificationSpecification.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Specifications\\NotificationSpecification.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Specifications\\NotificationSpecification.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Specifications\\NotificationSpecification.cs",
+              "RelativeToolTip": "Repository Layer\\Specifications\\NotificationSpecification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T09:04:00.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Service Layer\\NotificationService.cs",
+              "RelativeDocumentMoniker": "Service Layer\\NotificationService.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Service Layer\\NotificationService.cs",
+              "RelativeToolTip": "Service Layer\\NotificationService.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADgAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T09:01:18.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Inetrfaces\\Services\\INotificationService.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Inetrfaces\\Services\\INotificationService.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Inetrfaces\\Services\\INotificationService.cs",
+              "RelativeToolTip": "Core Layer\\Inetrfaces\\Services\\INotificationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T08:48:07.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "NotificationDto.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\NotificationDto.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Data Transfer Object\\NotificationDto.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\NotificationDto.cs",
+              "RelativeToolTip": "Core Layer\\Data Transfer Object\\NotificationDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T08:43:23.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "20241019084234_Add Notification Module.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\Data\\20241019084234_Add Notification Module.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Migrations\\Data\\20241019084234_Add Notification Module.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\Data\\20241019084234_Add Notification Module.cs",
+              "RelativeToolTip": "Repository Layer\\Migrations\\Data\\20241019084234_Add Notification Module.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T08:42:34.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "20241019084044_Add Notification Module.cs",
+              "DocumentMoniker": "G:\\Social App\\New folder\\Repository Layer\\Migrations\\Data\\20241019084044_Add Notification Module.cs",
+              "RelativeDocumentMoniker": "..\\New folder\\Repository Layer\\Migrations\\Data\\20241019084044_Add Notification Module.cs",
+              "ToolTip": "G:\\Social App\\New folder\\Repository Layer\\Migrations\\Data\\20241019084044_Add Notification Module.cs",
+              "RelativeToolTip": "..\\New folder\\Repository Layer\\Migrations\\Data\\20241019084044_Add Notification Module.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T08:40:44.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "NotificationConfiguration.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Configurations\\NotificationConfiguration.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Configurations\\NotificationConfiguration.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Configurations\\NotificationConfiguration.cs",
+              "RelativeToolTip": "Repository Layer\\Configurations\\NotificationConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T08:27:06.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Entities\\Notification.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Entities\\Notification.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Entities\\Notification.cs",
+              "RelativeToolTip": "Core Layer\\Entities\\Notification.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAcwBEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T08:21:54.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "FollowingController.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Controllers\\FollowingController.cs",
+              "RelativeDocumentMoniker": "Graduation Project\\Controllers\\FollowingController.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Controllers\\FollowingController.cs",
+              "RelativeToolTip": "Graduation Project\\Controllers\\FollowingController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T10:39:44.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "UserFollowersSpecification.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Specifications\\UserFollowersSpecification.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Specifications\\UserFollowersSpecification.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Specifications\\UserFollowersSpecification.cs",
+              "RelativeToolTip": "Repository Layer\\Specifications\\UserFollowersSpecification.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAUwA0AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T10:15:18.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IUserFollowersRepository.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Inetrfaces\\Repositries\\IUserFollowersRepository.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Inetrfaces\\Repositries\\IUserFollowersRepository.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Inetrfaces\\Repositries\\IUserFollowersRepository.cs",
+              "RelativeToolTip": "Core Layer\\Inetrfaces\\Repositries\\IUserFollowersRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T09:12:03.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "UserFollowersRepository.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Repositries\\UserFollowersRepository.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Repositries\\UserFollowersRepository.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Repositries\\UserFollowersRepository.cs",
+              "RelativeToolTip": "Repository Layer\\Repositries\\UserFollowersRepository.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAqwDEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T09:11:27.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "InputFollowerDto.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\InputFollowerDto.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Data Transfer Object\\InputFollowerDto.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\InputFollowerDto.cs",
+              "RelativeToolTip": "Core Layer\\Data Transfer Object\\InputFollowerDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T08:04:08.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IFollowingService.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Inetrfaces\\Services\\IFollowingService.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Inetrfaces\\Services\\IFollowingService.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Inetrfaces\\Services\\IFollowingService.cs",
+              "RelativeToolTip": "Core Layer\\Inetrfaces\\Services\\IFollowingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T08:03:23.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "FollowingService.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Service Layer\\FollowingService.cs",
+              "RelativeDocumentMoniker": "Service Layer\\FollowingService.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Service Layer\\FollowingService.cs",
+              "RelativeToolTip": "Service Layer\\FollowingService.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAACUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T08:02:47.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "20241015080134_Add is Following property.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\Data\\20241015080134_Add is Following property.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Migrations\\Data\\20241015080134_Add is Following property.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\Data\\20241015080134_Add is Following property.cs",
+              "RelativeToolTip": "Repository Layer\\Migrations\\Data\\20241015080134_Add is Following property.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T08:01:34.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "20241015075859_Add Following Table.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\Data\\20241015075859_Add Following Table.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Migrations\\Data\\20241015075859_Add Following Table.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\Data\\20241015075859_Add Following Table.cs",
+              "RelativeToolTip": "Repository Layer\\Migrations\\Data\\20241015075859_Add Following Table.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T07:58:59.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "20241015075612_Add Following Table.cs",
+              "DocumentMoniker": "G:\\Social App\\New folder\\Repository Layer\\Migrations\\Data\\20241015075612_Add Following Table.cs",
+              "RelativeDocumentMoniker": "..\\New folder\\Repository Layer\\Migrations\\Data\\20241015075612_Add Following Table.cs",
+              "ToolTip": "G:\\Social App\\New folder\\Repository Layer\\Migrations\\Data\\20241015075612_Add Following Table.cs",
+              "RelativeToolTip": "..\\New folder\\Repository Layer\\Migrations\\Data\\20241015075612_Add Following Table.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T07:56:12.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "UserFollowersConfigurations.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Configurations\\UserFollowersConfigurations.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Configurations\\UserFollowersConfigurations.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Configurations\\UserFollowersConfigurations.cs",
+              "RelativeToolTip": "Repository Layer\\Configurations\\UserFollowersConfigurations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T07:54:04.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "UserFollowers.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Entities\\UserFollowers.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Entities\\UserFollowers.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Entities\\UserFollowers.cs",
+              "RelativeToolTip": "Core Layer\\Entities\\UserFollowers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T07:43:54.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CommentsDto.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\CommentsDto.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Data Transfer Object\\CommentsDto.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\CommentsDto.cs",
+              "RelativeToolTip": "Core Layer\\Data Transfer Object\\CommentsDto.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAuwBMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T09:35:18.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CommentSpecificationParameter.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Entities\\CommentSpecificationParameter.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Entities\\CommentSpecificationParameter.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Entities\\CommentSpecificationParameter.cs",
+              "RelativeToolTip": "Core Layer\\Entities\\CommentSpecificationParameter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T07:29:27.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CommentSpecification.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Specifications\\CommentSpecification.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Specifications\\CommentSpecification.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Specifications\\CommentSpecification.cs",
+              "RelativeToolTip": "Repository Layer\\Specifications\\CommentSpecification.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwBIAAACZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T07:24:41.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "DataContextModelSnapshot.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\Data\\DataContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Migrations\\Data\\DataContextModelSnapshot.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\Data\\DataContextModelSnapshot.cs",
+              "RelativeToolTip": "Repository Layer\\Migrations\\Data\\DataContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T10:23:00.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "20241006094231_Inatial Create.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\Data\\20241006094231_Inatial Create.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Migrations\\Data\\20241006094231_Inatial Create.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\Data\\20241006094231_Inatial Create.cs",
+              "RelativeToolTip": "Repository Layer\\Migrations\\Data\\20241006094231_Inatial Create.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAowB4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T10:19:19.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "20241012100802_Update Comment Table.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\Data\\20241012100802_Update Comment Table.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Migrations\\Data\\20241012100802_Update Comment Table.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\Data\\20241012100802_Update Comment Table.cs",
+              "RelativeToolTip": "Repository Layer\\Migrations\\Data\\20241012100802_Update Comment Table.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA9wCQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T10:08:02.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "20241012100135_Add Comment Table.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\Data\\20241012100135_Add Comment Table.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Migrations\\Data\\20241012100135_Add Comment Table.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\Data\\20241012100135_Add Comment Table.cs",
+              "RelativeToolTip": "Repository Layer\\Migrations\\Data\\20241012100135_Add Comment Table.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAIBJwBAAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T10:01:36.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "Graduation Project\\Controllers\\CommentController.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "Graduation Project\\Controllers\\CommentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T09:21:12.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Service Layer\\CommentService.cs",
+              "RelativeDocumentMoniker": "Service Layer\\CommentService.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Service Layer\\CommentService.cs",
+              "RelativeToolTip": "Service Layer\\CommentService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAABYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T09:08:22.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ICommentService.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Inetrfaces\\Services\\ICommentService.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Inetrfaces\\Services\\ICommentService.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Inetrfaces\\Services\\ICommentService.cs",
+              "RelativeToolTip": "Core Layer\\Inetrfaces\\Services\\ICommentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T09:04:45.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "InputCommentDto.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\InputCommentDto.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Data Transfer Object\\InputCommentDto.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\InputCommentDto.cs",
+              "RelativeToolTip": "Core Layer\\Data Transfer Object\\InputCommentDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T09:00:56.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "20241012085729_Add Comment Table.cs",
+              "DocumentMoniker": "G:\\Social App\\New folder\\Repository Layer\\Migrations\\Data\\20241012085729_Add Comment Table.cs",
+              "RelativeDocumentMoniker": "..\\New folder\\Repository Layer\\Migrations\\Data\\20241012085729_Add Comment Table.cs",
+              "ToolTip": "G:\\Social App\\New folder\\Repository Layer\\Migrations\\Data\\20241012085729_Add Comment Table.cs",
+              "RelativeToolTip": "..\\New folder\\Repository Layer\\Migrations\\Data\\20241012085729_Add Comment Table.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T08:57:29.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "20241012085611_Add Comment Table.cs",
+              "DocumentMoniker": "G:\\Social App\\New folder\\Repository Layer\\Migrations\\Data\\20241012085611_Add Comment Table.cs",
+              "RelativeDocumentMoniker": "..\\New folder\\Repository Layer\\Migrations\\Data\\20241012085611_Add Comment Table.cs",
+              "ToolTip": "G:\\Social App\\New folder\\Repository Layer\\Migrations\\Data\\20241012085611_Add Comment Table.cs",
+              "RelativeToolTip": "..\\New folder\\Repository Layer\\Migrations\\Data\\20241012085611_Add Comment Table.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T08:56:11.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "20241012085435_Add Comment Table.cs",
+              "DocumentMoniker": "G:\\Social App\\New folder\\Repository Layer\\Migrations\\Data\\20241012085435_Add Comment Table.cs",
+              "RelativeDocumentMoniker": "..\\New folder\\Repository Layer\\Migrations\\Data\\20241012085435_Add Comment Table.cs",
+              "ToolTip": "G:\\Social App\\New folder\\Repository Layer\\Migrations\\Data\\20241012085435_Add Comment Table.cs",
+              "RelativeToolTip": "..\\New folder\\Repository Layer\\Migrations\\Data\\20241012085435_Add Comment Table.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T08:54:35.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "CommentConfiguration.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Configurations\\CommentConfiguration.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Configurations\\CommentConfiguration.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Configurations\\CommentConfiguration.cs",
+              "RelativeToolTip": "Repository Layer\\Configurations\\CommentConfiguration.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAkwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T03:34:47.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Entities\\Comment.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Entities\\Comment.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Entities\\Comment.cs",
+              "RelativeToolTip": "Core Layer\\Entities\\Comment.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAIwAsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T03:30:58.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "SpecificationEvaluator.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Specifications\\SpecificationEvaluator.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Specifications\\SpecificationEvaluator.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Specifications\\SpecificationEvaluator.cs",
+              "RelativeToolTip": "Repository Layer\\Specifications\\SpecificationEvaluator.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAADwvxkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:23:57.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "PostSpecificationParameters.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Entities\\PostSpecificationParameters.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Entities\\PostSpecificationParameters.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Entities\\PostSpecificationParameters.cs",
+              "RelativeToolTip": "Core Layer\\Entities\\PostSpecificationParameters.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAUwAgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:13:17.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "PostSpecification.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Specifications\\PostSpecification.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Specifications\\PostSpecification.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Specifications\\PostSpecification.cs",
+              "RelativeToolTip": "Repository Layer\\Specifications\\PostSpecification.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAhwBkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:10:54.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "BaseSpecification.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Specifications\\BaseSpecification.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Specifications\\BaseSpecification.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Specifications\\BaseSpecification.cs",
+              "RelativeToolTip": "Repository Layer\\Specifications\\BaseSpecification.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:06:11.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "ISpecification.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Inetrfaces\\ISpecification.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Inetrfaces\\ISpecification.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Inetrfaces\\ISpecification.cs",
+              "RelativeToolTip": "Core Layer\\Inetrfaces\\ISpecification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:01:33.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "Graduation Project\\Controllers\\PostController.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Controllers\\PostController.cs",
+              "RelativeToolTip": "Graduation Project\\Controllers\\PostController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAcwDMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T10:15:54.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UpdatePostDto.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\UpdatePostDto.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Data Transfer Object\\UpdatePostDto.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\UpdatePostDto.cs",
+              "RelativeToolTip": "Core Layer\\Data Transfer Object\\UpdatePostDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T09:43:54.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DeletePostDto.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\DeletePostDto.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Data Transfer Object\\DeletePostDto.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\DeletePostDto.cs",
+              "RelativeToolTip": "Core Layer\\Data Transfer Object\\DeletePostDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T09:12:36.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PostService.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Service Layer\\PostService.cs",
+              "RelativeDocumentMoniker": "Service Layer\\PostService.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Service Layer\\PostService.cs",
+              "RelativeToolTip": "Service Layer\\PostService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAANUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T08:55:13.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "InputPostDto.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\InputPostDto.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Data Transfer Object\\InputPostDto.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\InputPostDto.cs",
+              "RelativeToolTip": "Core Layer\\Data Transfer Object\\InputPostDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T08:46:31.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IPostService.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Inetrfaces\\Services\\IPostService.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Inetrfaces\\Services\\IPostService.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Inetrfaces\\Services\\IPostService.cs",
+              "RelativeToolTip": "Core Layer\\Inetrfaces\\Services\\IPostService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T08:44:21.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "PostDto.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\PostDto.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Data Transfer Object\\PostDto.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\PostDto.cs",
+              "RelativeToolTip": "Core Layer\\Data Transfer Object\\PostDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T08:41:27.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserPostDto.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\UserPostDto.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Data Transfer Object\\UserPostDto.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\UserPostDto.cs",
+              "RelativeToolTip": "Core Layer\\Data Transfer Object\\UserPostDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T08:39:58.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "20241010082429_Add Post Table.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\Data\\20241010082429_Add Post Table.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Migrations\\Data\\20241010082429_Add Post Table.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\Data\\20241010082429_Add Post Table.cs",
+              "RelativeToolTip": "Repository Layer\\Migrations\\Data\\20241010082429_Add Post Table.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T08:24:30.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Post.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Entities\\Post.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Entities\\Post.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Entities\\Post.cs",
+              "RelativeToolTip": "Core Layer\\Entities\\Post.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T08:07:08.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "ImageInputDto.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Utility\\ImageInputDto.cs",
+              "RelativeDocumentMoniker": "Graduation Project\\Utility\\ImageInputDto.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Utility\\ImageInputDto.cs",
+              "RelativeToolTip": "Graduation Project\\Utility\\ImageInputDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T05:18:24.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UploadAndDeleteImageDto.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\UploadAndDeleteImageDto.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Data Transfer Object\\UploadAndDeleteImageDto.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\UploadAndDeleteImageDto.cs",
+              "RelativeToolTip": "Core Layer\\Data Transfer Object\\UploadAndDeleteImageDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T04:11:23.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "ImageSetting.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Utility\\ImageSetting.cs",
+              "RelativeDocumentMoniker": "Graduation Project\\Utility\\ImageSetting.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Utility\\ImageSetting.cs",
+              "RelativeToolTip": "Graduation Project\\Utility\\ImageSetting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T03:54:58.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "Graduation Project\\Controllers\\ImageController.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "Graduation Project\\Controllers\\ImageController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T10:08:43.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ChangePasswordDto.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\ChangePasswordDto.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Data Transfer Object\\ChangePasswordDto.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\ChangePasswordDto.cs",
+              "RelativeToolTip": "Core Layer\\Data Transfer Object\\ChangePasswordDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAIwBQAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T08:49:07.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "20241006092626_Add Identity Tabels.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\20241006092626_Add Identity Tabels.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Migrations\\20241006092626_Add Identity Tabels.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\20241006092626_Add Identity Tabels.cs",
+              "RelativeToolTip": "Repository Layer\\Migrations\\20241006092626_Add Identity Tabels.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAN0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T08:09:22.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "IdentityDataContextModelSnapshot.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\IdentityDataContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Migrations\\IdentityDataContextModelSnapshot.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Migrations\\IdentityDataContextModelSnapshot.cs",
+              "RelativeToolTip": "Repository Layer\\Migrations\\IdentityDataContextModelSnapshot.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAwCkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T08:09:02.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Graduation Project\\Controllers\\UserController.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Graduation Project\\Controllers\\UserController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAqwEQAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T04:36:44.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Service Layer\\UserService.cs",
+              "RelativeDocumentMoniker": "Service Layer\\UserService.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Service Layer\\UserService.cs",
+              "RelativeToolTip": "Service Layer\\UserService.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAAAGYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T04:29:48.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ReturnUsersDto.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\ReturnUsersDto.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Data Transfer Object\\ReturnUsersDto.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\ReturnUsersDto.cs",
+              "RelativeToolTip": "Core Layer\\Data Transfer Object\\ReturnUsersDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T04:25:16.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Graduation Project\\Controllers\\AccountController.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Graduation Project\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAswC8AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T16:28:47.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "CustomExceptionHandler.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Erorrs\\CustomExceptionHandler.cs",
+              "RelativeDocumentMoniker": "Graduation Project\\Erorrs\\CustomExceptionHandler.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Erorrs\\CustomExceptionHandler.cs",
+              "RelativeToolTip": "Graduation Project\\Erorrs\\CustomExceptionHandler.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAUwBEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T14:23:36.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "IdentityServices.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Extensions\\IdentityServices.cs",
+              "RelativeDocumentMoniker": "Graduation Project\\Extensions\\IdentityServices.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Extensions\\IdentityServices.cs",
+              "RelativeToolTip": "Graduation Project\\Extensions\\IdentityServices.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAiwEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T15:19:00.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\appsettings.json",
+              "RelativeDocumentMoniker": "Graduation Project\\appsettings.json",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\appsettings.json",
+              "RelativeToolTip": "Graduation Project\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-06T16:41:02.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Data Transfer Object\\RegisterDto.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\RegisterDto.cs",
+              "RelativeToolTip": "Core Layer\\Data Transfer Object\\RegisterDto.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA4wB0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T15:45:05.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Service Layer\\AccountService.cs",
+              "RelativeDocumentMoniker": "Service Layer\\AccountService.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Service Layer\\AccountService.cs",
+              "RelativeToolTip": "Service Layer\\AccountService.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAAAJgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T15:52:13.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "ApiExcepthionResponse.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Erorrs\\ApiExcepthionResponse.cs",
+              "RelativeDocumentMoniker": "Graduation Project\\Erorrs\\ApiExcepthionResponse.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Erorrs\\ApiExcepthionResponse.cs",
+              "RelativeToolTip": "Graduation Project\\Erorrs\\ApiExcepthionResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T14:20:54.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Program.cs",
+              "RelativeDocumentMoniker": "Graduation Project\\Program.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Program.cs",
+              "RelativeToolTip": "Graduation Project\\Program.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T08:30:41.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DbIntializer.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Extensions\\DbIntializer.cs",
+              "RelativeDocumentMoniker": "Graduation Project\\Extensions\\DbIntializer.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Extensions\\DbIntializer.cs",
+              "RelativeToolTip": "Graduation Project\\Extensions\\DbIntializer.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAxwCEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T17:03:14.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IdentityContextSeed.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Context\\IdentityContextSeed.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Context\\IdentityContextSeed.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Context\\IdentityContextSeed.cs",
+              "RelativeToolTip": "Repository Layer\\Context\\IdentityContextSeed.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAwwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T17:08:00.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "Core Layer.csproj",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Core Layer.csproj",
+              "RelativeDocumentMoniker": "Core Layer\\Core Layer.csproj",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Core Layer.csproj",
+              "RelativeToolTip": "Core Layer\\Core Layer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-06T16:53:46.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IUserServices.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Inetrfaces\\Services\\IUserServices.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Inetrfaces\\Services\\IUserServices.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Inetrfaces\\Services\\IUserServices.cs",
+              "RelativeToolTip": "Core Layer\\Inetrfaces\\Services\\IUserServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T16:25:59.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ReturnLoginDto.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\ReturnLoginDto.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Data Transfer Object\\ReturnLoginDto.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\ReturnLoginDto.cs",
+              "RelativeToolTip": "Core Layer\\Data Transfer Object\\ReturnLoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T15:49:16.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Graduation Project\\Properties\\launchSettings.json",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Graduation Project\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-06T16:42:45.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Data Transfer Object\\LoginDto.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Data Transfer Object\\LoginDto.cs",
+              "RelativeToolTip": "Core Layer\\Data Transfer Object\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T15:48:10.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "AppServices.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Extensions\\AppServices.cs",
+              "RelativeDocumentMoniker": "Graduation Project\\Extensions\\AppServices.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Extensions\\AppServices.cs",
+              "RelativeToolTip": "Graduation Project\\Extensions\\AppServices.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAADwvxYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T15:32:59.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Service Layer.csproj",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Service Layer\\Service Layer.csproj",
+              "RelativeDocumentMoniker": "Service Layer\\Service Layer.csproj",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Service Layer\\Service Layer.csproj",
+              "RelativeToolTip": "Service Layer\\Service Layer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-06T15:41:37.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Inetrfaces\\Services\\IAccountService.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Inetrfaces\\Services\\IAccountService.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Inetrfaces\\Services\\IAccountService.cs",
+              "RelativeToolTip": "Core Layer\\Inetrfaces\\Services\\IAccountService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T15:44:01.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Service Layer\\TokenService.cs",
+              "RelativeDocumentMoniker": "Service Layer\\TokenService.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Service Layer\\TokenService.cs",
+              "RelativeToolTip": "Service Layer\\TokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T14:49:32.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "SwaggerServices.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Extensions\\SwaggerServices.cs",
+              "RelativeDocumentMoniker": "Graduation Project\\Extensions\\SwaggerServices.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Graduation Project\\Extensions\\SwaggerServices.cs",
+              "RelativeToolTip": "Graduation Project\\Extensions\\SwaggerServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T15:36:36.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Inetrfaces\\Services\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Inetrfaces\\Services\\ITokenService.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Inetrfaces\\Services\\ITokenService.cs",
+              "RelativeToolTip": "Core Layer\\Inetrfaces\\Services\\ITokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T14:48:16.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Repositries\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Repositries\\GenericRepository.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Repositries\\GenericRepository.cs",
+              "RelativeToolTip": "Repository Layer\\Repositries\\GenericRepository.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAywC4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T10:09:59.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "Repository Layer\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAUwCEAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T09:53:50.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Entities\\User.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Entities\\User.cs",
+              "RelativeToolTip": "Core Layer\\Entities\\User.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAwwBgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T09:50:39.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Entities\\BaseEntity.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "Core Layer\\Entities\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T09:50:08.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "IGenericRepositry.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Inetrfaces\\Repositries\\IGenericRepositry.cs",
+              "RelativeDocumentMoniker": "Core Layer\\Inetrfaces\\Repositries\\IGenericRepositry.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Core Layer\\Inetrfaces\\Repositries\\IGenericRepositry.cs",
+              "RelativeToolTip": "Core Layer\\Inetrfaces\\Repositries\\IGenericRepositry.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T09:49:30.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Context\\DataContext.cs",
+              "RelativeDocumentMoniker": "Repository Layer\\Context\\DataContext.cs",
+              "ToolTip": "G:\\Social App\\Social App Graduation Project\\Repository Layer\\Context\\DataContext.cs",
+              "RelativeToolTip": "Repository Layer\\Context\\DataContext.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAqwAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T08:46:11.475Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

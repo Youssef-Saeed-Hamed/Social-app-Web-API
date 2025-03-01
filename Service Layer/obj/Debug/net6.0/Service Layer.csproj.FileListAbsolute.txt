@@ -1,0 +1,51 @@
+G:\Social App\Social App\Service Layer\bin\Debug\net6.0\Service Layer.deps.json
+G:\Social App\Social App\Service Layer\bin\Debug\net6.0\Service Layer.dll
+G:\Social App\Social App\Service Layer\bin\Debug\net6.0\Service Layer.pdb
+G:\Social App\Social App\Service Layer\bin\Debug\net6.0\Core Layer.dll
+G:\Social App\Social App\Service Layer\bin\Debug\net6.0\Repository Layer.dll
+G:\Social App\Social App\Service Layer\bin\Debug\net6.0\Repository Layer.pdb
+G:\Social App\Social App\Service Layer\bin\Debug\net6.0\Core Layer.pdb
+G:\Social App\Social App\Service Layer\obj\Debug\net6.0\Service Layer.csproj.AssemblyReference.cache
+G:\Social App\Social App\Service Layer\obj\Debug\net6.0\Service Layer.GeneratedMSBuildEditorConfig.editorconfig
+G:\Social App\Social App\Service Layer\obj\Debug\net6.0\Service Layer.AssemblyInfoInputs.cache
+G:\Social App\Social App\Service Layer\obj\Debug\net6.0\Service Layer.AssemblyInfo.cs
+G:\Social App\Social App\Service Layer\obj\Debug\net6.0\Service Layer.csproj.CoreCompileInputs.cache
+G:\Social App\Social App\Service Layer\obj\Debug\net6.0\Service .3A89A60B.Up2Date
+G:\Social App\Social App\Service Layer\obj\Debug\net6.0\Service Layer.dll
+G:\Social App\Social App\Service Layer\obj\Debug\net6.0\refint\Service Layer.dll
+G:\Social App\Social App\Service Layer\obj\Debug\net6.0\Service Layer.pdb
+G:\Social App\Social App\Service Layer\obj\Debug\net6.0\ref\Service Layer.dll
+G:\Social App\New folder\Service Layer\bin\Debug\net6.0\Service Layer.deps.json
+G:\Social App\New folder\Service Layer\bin\Debug\net6.0\Service Layer.dll
+G:\Social App\New folder\Service Layer\bin\Debug\net6.0\Service Layer.pdb
+G:\Social App\New folder\Service Layer\bin\Debug\net6.0\Core Layer.dll
+G:\Social App\New folder\Service Layer\bin\Debug\net6.0\Repository Layer.dll
+G:\Social App\New folder\Service Layer\bin\Debug\net6.0\Repository Layer.pdb
+G:\Social App\New folder\Service Layer\bin\Debug\net6.0\Core Layer.pdb
+G:\Social App\New folder\Service Layer\obj\Debug\net6.0\Service Layer.csproj.AssemblyReference.cache
+G:\Social App\New folder\Service Layer\obj\Debug\net6.0\Service Layer.GeneratedMSBuildEditorConfig.editorconfig
+G:\Social App\New folder\Service Layer\obj\Debug\net6.0\Service Layer.AssemblyInfoInputs.cache
+G:\Social App\New folder\Service Layer\obj\Debug\net6.0\Service Layer.AssemblyInfo.cs
+G:\Social App\New folder\Service Layer\obj\Debug\net6.0\Service Layer.csproj.CoreCompileInputs.cache
+G:\Social App\New folder\Service Layer\obj\Debug\net6.0\Service .3A89A60B.Up2Date
+G:\Social App\New folder\Service Layer\obj\Debug\net6.0\Service Layer.dll
+G:\Social App\New folder\Service Layer\obj\Debug\net6.0\refint\Service Layer.dll
+G:\Social App\New folder\Service Layer\obj\Debug\net6.0\Service Layer.pdb
+G:\Social App\New folder\Service Layer\obj\Debug\net6.0\ref\Service Layer.dll
+G:\Social App\Social App Graduation Project\Service Layer\bin\Debug\net6.0\Service Layer.deps.json
+G:\Social App\Social App Graduation Project\Service Layer\bin\Debug\net6.0\Service Layer.dll
+G:\Social App\Social App Graduation Project\Service Layer\bin\Debug\net6.0\Service Layer.pdb
+G:\Social App\Social App Graduation Project\Service Layer\bin\Debug\net6.0\Core Layer.dll
+G:\Social App\Social App Graduation Project\Service Layer\bin\Debug\net6.0\Repository Layer.dll
+G:\Social App\Social App Graduation Project\Service Layer\bin\Debug\net6.0\Repository Layer.pdb
+G:\Social App\Social App Graduation Project\Service Layer\bin\Debug\net6.0\Core Layer.pdb
+G:\Social App\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.csproj.AssemblyReference.cache
+G:\Social App\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.GeneratedMSBuildEditorConfig.editorconfig
+G:\Social App\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.AssemblyInfoInputs.cache
+G:\Social App\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.AssemblyInfo.cs
+G:\Social App\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.csproj.CoreCompileInputs.cache
+G:\Social App\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service .3A89A60B.Up2Date
+G:\Social App\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.dll
+G:\Social App\Social App Graduation Project\Service Layer\obj\Debug\net6.0\refint\Service Layer.dll
+G:\Social App\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.pdb
+G:\Social App\Social App Graduation Project\Service Layer\obj\Debug\net6.0\ref\Service Layer.dll

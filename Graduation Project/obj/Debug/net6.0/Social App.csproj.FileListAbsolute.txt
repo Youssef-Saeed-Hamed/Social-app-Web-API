@@ -1,0 +1,243 @@
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\appsettings.Development.json
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\appsettings.json
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Social App.exe
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Social App.deps.json
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Social App.runtimeconfig.json
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Social App.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Social App.pdb
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Humanizer.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Microsoft.OpenApi.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\System.Drawing.Common.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\System.Runtime.Caching.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\System.Security.Permissions.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\System.Windows.Extensions.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Core Layer.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Repository Layer.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Service Layer.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Service Layer.pdb
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Core Layer.pdb
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Repository Layer.pdb
+G:\Social App\Social App\Graduation Project\obj\Debug\net6.0\Social App.csproj.AssemblyReference.cache
+G:\Social App\Social App\Graduation Project\obj\Debug\net6.0\Social App.GeneratedMSBuildEditorConfig.editorconfig
+G:\Social App\Social App\Graduation Project\obj\Debug\net6.0\Social App.AssemblyInfoInputs.cache
+G:\Social App\Social App\Graduation Project\obj\Debug\net6.0\Social App.AssemblyInfo.cs
+G:\Social App\Social App\Graduation Project\obj\Debug\net6.0\Social App.csproj.CoreCompileInputs.cache
+G:\Social App\Social App\Graduation Project\obj\Debug\net6.0\Social App.MvcApplicationPartsAssemblyInfo.cs
+G:\Social App\Social App\Graduation Project\obj\Debug\net6.0\Social App.MvcApplicationPartsAssemblyInfo.cache
+G:\Social App\Social App\Graduation Project\obj\Debug\net6.0\staticwebassets.build.json
+G:\Social App\Social App\Graduation Project\obj\Debug\net6.0\staticwebassets.development.json
+G:\Social App\Social App\Graduation Project\obj\Debug\net6.0\staticwebassets\msbuild.Social App.Microsoft.AspNetCore.StaticWebAssets.props
+G:\Social App\Social App\Graduation Project\obj\Debug\net6.0\staticwebassets\msbuild.build.Social App.props
+G:\Social App\Social App\Graduation Project\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Social App.props
+G:\Social App\Social App\Graduation Project\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Social App.props
+G:\Social App\Social App\Graduation Project\obj\Debug\net6.0\staticwebassets.pack.json
+G:\Social App\Social App\Graduation Project\obj\Debug\net6.0\scopedcss\bundle\Social App.styles.css
+G:\Social App\Social App\Graduation Project\obj\Debug\net6.0\Social App.csproj.Up2Date
+G:\Social App\Social App\Graduation Project\obj\Debug\net6.0\Social App.dll
+G:\Social App\Social App\Graduation Project\obj\Debug\net6.0\refint\Social App.dll
+G:\Social App\Social App\Graduation Project\obj\Debug\net6.0\Social App.pdb
+G:\Social App\Social App\Graduation Project\obj\Debug\net6.0\Social App.genruntimeconfig.cache
+G:\Social App\Social App\Graduation Project\obj\Debug\net6.0\ref\Social App.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+G:\Social App\Social App\Graduation Project\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\appsettings.Development.json
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\appsettings.json
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Social App.exe
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Social App.deps.json
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Social App.runtimeconfig.json
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Social App.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Social App.pdb
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Humanizer.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Microsoft.OpenApi.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\System.Drawing.Common.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\System.Runtime.Caching.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\System.Security.Permissions.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\System.Windows.Extensions.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Core Layer.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Repository Layer.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Service Layer.dll
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Service Layer.pdb
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Core Layer.pdb
+G:\Social App\New folder\Graduation Project\bin\Debug\net6.0\Repository Layer.pdb
+G:\Social App\New folder\Graduation Project\obj\Debug\net6.0\Social App.csproj.AssemblyReference.cache
+G:\Social App\New folder\Graduation Project\obj\Debug\net6.0\Social App.GeneratedMSBuildEditorConfig.editorconfig
+G:\Social App\New folder\Graduation Project\obj\Debug\net6.0\Social App.AssemblyInfoInputs.cache
+G:\Social App\New folder\Graduation Project\obj\Debug\net6.0\Social App.AssemblyInfo.cs
+G:\Social App\New folder\Graduation Project\obj\Debug\net6.0\Social App.csproj.CoreCompileInputs.cache
+G:\Social App\New folder\Graduation Project\obj\Debug\net6.0\Social App.MvcApplicationPartsAssemblyInfo.cs
+G:\Social App\New folder\Graduation Project\obj\Debug\net6.0\Social App.MvcApplicationPartsAssemblyInfo.cache
+G:\Social App\New folder\Graduation Project\obj\Debug\net6.0\staticwebassets.build.json
+G:\Social App\New folder\Graduation Project\obj\Debug\net6.0\staticwebassets.development.json
+G:\Social App\New folder\Graduation Project\obj\Debug\net6.0\staticwebassets\msbuild.Social App.Microsoft.AspNetCore.StaticWebAssets.props
+G:\Social App\New folder\Graduation Project\obj\Debug\net6.0\staticwebassets\msbuild.build.Social App.props
+G:\Social App\New folder\Graduation Project\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Social App.props
+G:\Social App\New folder\Graduation Project\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Social App.props
+G:\Social App\New folder\Graduation Project\obj\Debug\net6.0\staticwebassets.pack.json
+G:\Social App\New folder\Graduation Project\obj\Debug\net6.0\scopedcss\bundle\Social App.styles.css
+G:\Social App\New folder\Graduation Project\obj\Debug\net6.0\Social App.csproj.Up2Date
+G:\Social App\New folder\Graduation Project\obj\Debug\net6.0\Social App.dll
+G:\Social App\New folder\Graduation Project\obj\Debug\net6.0\refint\Social App.dll
+G:\Social App\New folder\Graduation Project\obj\Debug\net6.0\Social App.pdb
+G:\Social App\New folder\Graduation Project\obj\Debug\net6.0\Social App.genruntimeconfig.cache
+G:\Social App\New folder\Graduation Project\obj\Debug\net6.0\ref\Social App.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\appsettings.Development.json
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\appsettings.json
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Social App.exe
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Social App.deps.json
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Social App.runtimeconfig.json
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Social App.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Social App.pdb
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Humanizer.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Microsoft.OpenApi.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\System.Drawing.Common.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\System.Runtime.Caching.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\System.Security.Permissions.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\System.Windows.Extensions.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Core Layer.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Repository Layer.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Service Layer.dll
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Service Layer.pdb
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Core Layer.pdb
+G:\Social App\Social App Graduation Project\Graduation Project\bin\Debug\net6.0\Repository Layer.pdb
+G:\Social App\Social App Graduation Project\Graduation Project\obj\Debug\net6.0\Social App.csproj.AssemblyReference.cache
+G:\Social App\Social App Graduation Project\Graduation Project\obj\Debug\net6.0\Social App.GeneratedMSBuildEditorConfig.editorconfig
+G:\Social App\Social App Graduation Project\Graduation Project\obj\Debug\net6.0\Social App.AssemblyInfoInputs.cache
+G:\Social App\Social App Graduation Project\Graduation Project\obj\Debug\net6.0\Social App.AssemblyInfo.cs
+G:\Social App\Social App Graduation Project\Graduation Project\obj\Debug\net6.0\Social App.csproj.CoreCompileInputs.cache
+G:\Social App\Social App Graduation Project\Graduation Project\obj\Debug\net6.0\Social App.MvcApplicationPartsAssemblyInfo.cs
+G:\Social App\Social App Graduation Project\Graduation Project\obj\Debug\net6.0\Social App.MvcApplicationPartsAssemblyInfo.cache
+G:\Social App\Social App Graduation Project\Graduation Project\obj\Debug\net6.0\staticwebassets.build.json
+G:\Social App\Social App Graduation Project\Graduation Project\obj\Debug\net6.0\staticwebassets.development.json
+G:\Social App\Social App Graduation Project\Graduation Project\obj\Debug\net6.0\staticwebassets\msbuild.Social App.Microsoft.AspNetCore.StaticWebAssets.props
+G:\Social App\Social App Graduation Project\Graduation Project\obj\Debug\net6.0\staticwebassets\msbuild.build.Social App.props
+G:\Social App\Social App Graduation Project\Graduation Project\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Social App.props
+G:\Social App\Social App Graduation Project\Graduation Project\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Social App.props
+G:\Social App\Social App Graduation Project\Graduation Project\obj\Debug\net6.0\staticwebassets.pack.json
+G:\Social App\Social App Graduation Project\Graduation Project\obj\Debug\net6.0\scopedcss\bundle\Social App.styles.css
+G:\Social App\Social App Graduation Project\Graduation Project\obj\Debug\net6.0\Social App.csproj.Up2Date
+G:\Social App\Social App Graduation Project\Graduation Project\obj\Debug\net6.0\Social App.dll
+G:\Social App\Social App Graduation Project\Graduation Project\obj\Debug\net6.0\refint\Social App.dll
+G:\Social App\Social App Graduation Project\Graduation Project\obj\Debug\net6.0\Social App.pdb
+G:\Social App\Social App Graduation Project\Graduation Project\obj\Debug\net6.0\Social App.genruntimeconfig.cache
+G:\Social App\Social App Graduation Project\Graduation Project\obj\Debug\net6.0\ref\Social App.dll

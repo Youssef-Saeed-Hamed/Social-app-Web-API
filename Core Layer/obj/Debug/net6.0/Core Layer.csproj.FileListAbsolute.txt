@@ -1,0 +1,36 @@
+G:\Social App\Social App\Core Layer\bin\Debug\net6.0\Core Layer.deps.json
+G:\Social App\Social App\Core Layer\bin\Debug\net6.0\Core Layer.dll
+G:\Social App\Social App\Core Layer\bin\Debug\net6.0\Core Layer.pdb
+G:\Social App\Social App\Core Layer\obj\Debug\net6.0\Core Layer.csproj.AssemblyReference.cache
+G:\Social App\Social App\Core Layer\obj\Debug\net6.0\Core Layer.GeneratedMSBuildEditorConfig.editorconfig
+G:\Social App\Social App\Core Layer\obj\Debug\net6.0\Core Layer.AssemblyInfoInputs.cache
+G:\Social App\Social App\Core Layer\obj\Debug\net6.0\Core Layer.AssemblyInfo.cs
+G:\Social App\Social App\Core Layer\obj\Debug\net6.0\Core Layer.csproj.CoreCompileInputs.cache
+G:\Social App\Social App\Core Layer\obj\Debug\net6.0\Core Layer.dll
+G:\Social App\Social App\Core Layer\obj\Debug\net6.0\refint\Core Layer.dll
+G:\Social App\Social App\Core Layer\obj\Debug\net6.0\Core Layer.pdb
+G:\Social App\Social App\Core Layer\obj\Debug\net6.0\ref\Core Layer.dll
+G:\Social App\New folder\Core Layer\bin\Debug\net6.0\Core Layer.deps.json
+G:\Social App\New folder\Core Layer\bin\Debug\net6.0\Core Layer.dll
+G:\Social App\New folder\Core Layer\bin\Debug\net6.0\Core Layer.pdb
+G:\Social App\New folder\Core Layer\obj\Debug\net6.0\Core Layer.csproj.AssemblyReference.cache
+G:\Social App\New folder\Core Layer\obj\Debug\net6.0\Core Layer.GeneratedMSBuildEditorConfig.editorconfig
+G:\Social App\New folder\Core Layer\obj\Debug\net6.0\Core Layer.AssemblyInfoInputs.cache
+G:\Social App\New folder\Core Layer\obj\Debug\net6.0\Core Layer.AssemblyInfo.cs
+G:\Social App\New folder\Core Layer\obj\Debug\net6.0\Core Layer.csproj.CoreCompileInputs.cache
+G:\Social App\New folder\Core Layer\obj\Debug\net6.0\Core Layer.dll
+G:\Social App\New folder\Core Layer\obj\Debug\net6.0\refint\Core Layer.dll
+G:\Social App\New folder\Core Layer\obj\Debug\net6.0\Core Layer.pdb
+G:\Social App\New folder\Core Layer\obj\Debug\net6.0\ref\Core Layer.dll
+G:\Social App\Social App Graduation Project\Core Layer\bin\Debug\net6.0\Core Layer.deps.json
+G:\Social App\Social App Graduation Project\Core Layer\bin\Debug\net6.0\Core Layer.dll
+G:\Social App\Social App Graduation Project\Core Layer\bin\Debug\net6.0\Core Layer.pdb
+G:\Social App\Social App Graduation Project\Core Layer\obj\Debug\net6.0\Core Layer.csproj.AssemblyReference.cache
+G:\Social App\Social App Graduation Project\Core Layer\obj\Debug\net6.0\Core Layer.GeneratedMSBuildEditorConfig.editorconfig
+G:\Social App\Social App Graduation Project\Core Layer\obj\Debug\net6.0\Core Layer.AssemblyInfoInputs.cache
+G:\Social App\Social App Graduation Project\Core Layer\obj\Debug\net6.0\Core Layer.AssemblyInfo.cs
+G:\Social App\Social App Graduation Project\Core Layer\obj\Debug\net6.0\Core Layer.csproj.CoreCompileInputs.cache
+G:\Social App\Social App Graduation Project\Core Layer\obj\Debug\net6.0\Core Layer.dll
+G:\Social App\Social App Graduation Project\Core Layer\obj\Debug\net6.0\refint\Core Layer.dll
+G:\Social App\Social App Graduation Project\Core Layer\obj\Debug\net6.0\Core Layer.pdb
+G:\Social App\Social App Graduation Project\Core Layer\obj\Debug\net6.0\ref\Core Layer.dll
