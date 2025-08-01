@@ -4,7 +4,7 @@
     {
         public static string Upload (IFormFile file)
         {
-            var folderPath = Path.Combine(Directory.GetCurrentDirectory(), @"Files/Images");
+            var folderPath = Path.Combine(Directory.GetCurrentDirectory(), @"wwwroot/Files/Images");
 
             var fileName = $"{Guid.NewGuid()}-{file.FileName}";
 
@@ -14,12 +14,12 @@
             {
                 file.CopyTo(fileStream);
             }
-            return filePath;
+            return Path.Combine(@"Files/Images", fileName);
         }
 
         public static void Delete(string fileName)
         {
-            var filePath = Path.Combine(Directory.GetCurrentDirectory(), @"Files/Images", fileName);
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), @"wwwroot/Files/Images", fileName);
             if(File.Exists(filePath))
                 File.Delete(filePath);
         }

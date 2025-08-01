@@ -16,6 +16,8 @@ namespace Graduation_Project.Extensions
             services.AddScoped<ICommentService, CommentService>();
             services.AddScoped<IAccountService, AccountService>();
             services.AddScoped<IFollowingService, FollowingService>();
+            services.AddHttpClient<IModelsAiService, ModelsAiService>();
+
             services.AddScoped<INotificationService, NotificationService>();
             services.AddScoped<IEmailService, EmailService>();
             services.AddScoped<ILikeService, LikeService>();
