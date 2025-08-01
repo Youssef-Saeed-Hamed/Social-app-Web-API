@@ -43,3 +43,36 @@ G:\Social App\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\Re
 G:\Social App\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\refint\Repository Layer.dll
 G:\Social App\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\Repository Layer.pdb
 G:\Social App\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\ref\Repository Layer.dll
+G:\Social App\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\Repository Layer.sourcelink.json
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Repository Layer\bin\Debug\net6.0\Repository Layer.deps.json
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Repository Layer\bin\Debug\net6.0\Repository Layer.dll
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Repository Layer\bin\Debug\net6.0\Repository Layer.pdb
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Repository Layer\bin\Debug\net6.0\Core Layer.dll
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Repository Layer\bin\Debug\net6.0\Core Layer.pdb
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\Repository Layer.csproj.AssemblyReference.cache
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\Repository Layer.GeneratedMSBuildEditorConfig.editorconfig
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\Repository Layer.AssemblyInfoInputs.cache
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\Repository Layer.AssemblyInfo.cs
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\Repository Layer.csproj.CoreCompileInputs.cache
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\Repository Layer.sourcelink.json
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\Reposito.726B6223.Up2Date
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\Repository Layer.dll
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\refint\Repository Layer.dll
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\Repository Layer.pdb
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\ref\Repository Layer.dll
+D:\Graduation Project\Backend\Social App Graduation Project\Repository Layer\bin\Debug\net6.0\Repository Layer.deps.json
+D:\Graduation Project\Backend\Social App Graduation Project\Repository Layer\bin\Debug\net6.0\Repository Layer.dll
+D:\Graduation Project\Backend\Social App Graduation Project\Repository Layer\bin\Debug\net6.0\Repository Layer.pdb
+D:\Graduation Project\Backend\Social App Graduation Project\Repository Layer\bin\Debug\net6.0\Core Layer.dll
+D:\Graduation Project\Backend\Social App Graduation Project\Repository Layer\bin\Debug\net6.0\Core Layer.pdb
+D:\Graduation Project\Backend\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\Repository Layer.csproj.AssemblyReference.cache
+D:\Graduation Project\Backend\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\Repository Layer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Graduation Project\Backend\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\Repository Layer.AssemblyInfoInputs.cache
+D:\Graduation Project\Backend\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\Repository Layer.AssemblyInfo.cs
+D:\Graduation Project\Backend\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\Repository Layer.csproj.CoreCompileInputs.cache
+D:\Graduation Project\Backend\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\Repository Layer.sourcelink.json
+D:\Graduation Project\Backend\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\Reposito.726B6223.Up2Date
+D:\Graduation Project\Backend\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\Repository Layer.dll
+D:\Graduation Project\Backend\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\refint\Repository Layer.dll
+D:\Graduation Project\Backend\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\Repository Layer.pdb
+D:\Graduation Project\Backend\Social App Graduation Project\Repository Layer\obj\Debug\net6.0\ref\Repository Layer.dll

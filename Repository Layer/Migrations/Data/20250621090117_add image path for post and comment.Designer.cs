@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Repository_Layer.Context;
 
@@ -11,9 +12,10 @@ using Repository_Layer.Context;
 namespace Repository_Layer.Migrations.Data
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20250621090117_add image path for post and comment")]
+    partial class addimagepathforpostandcomment
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -260,15 +262,15 @@ namespace Repository_Layer.Migrations.Data
             modelBuilder.Entity("Core_Layer.Entities.LikePost", b =>
                 {
                     b.HasOne("Core_Layer.Entities.Post", "Post")
-                        .WithMany("LikePosts")
+                        .WithMany()
                         .HasForeignKey("PostId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.HasOne("Core_Layer.Entities.User", "User")
                         .WithMany()
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.Navigation("Post");
@@ -333,8 +335,6 @@ namespace Repository_Layer.Migrations.Data
             modelBuilder.Entity("Core_Layer.Entities.Post", b =>
                 {
                     b.Navigation("Comments");
-
-                    b.Navigation("LikePosts");
                 });
 
             modelBuilder.Entity("Core_Layer.Entities.User", b =>

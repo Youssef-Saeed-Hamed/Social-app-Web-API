@@ -16,13 +16,13 @@ namespace Repository_Layer.Configurations
             builder.HasOne<User>(x => x.User)
                 .WithMany()
                 .HasForeignKey(x => x.UserId)
-                .OnDelete(DeleteBehavior.NoAction);
+                .OnDelete(DeleteBehavior.Restrict);
 
 
             builder.HasOne<Post>(x => x.Post)
-                .WithMany()
+                .WithMany(l => l.LikePosts)
                 .HasForeignKey(x => x.PostId)
-                .OnDelete(DeleteBehavior.NoAction);
+                .OnDelete(DeleteBehavior.Restrict);
 
         }
     }

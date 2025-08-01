@@ -20,7 +20,8 @@ namespace Repository_Layer.Configurations
 
             builder.HasOne(c => c.Post)
                 .WithMany(u => u.Comments)
-                .HasForeignKey(u => u.PostId);
+                .HasForeignKey(u => u.PostId)
+                .OnDelete(DeleteBehavior.Cascade);
                 
 
             builder.HasMany(c => c.Recives)
