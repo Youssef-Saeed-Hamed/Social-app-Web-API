@@ -21,6 +21,19 @@ namespace Graduation_Project
             builder.Services.AddDbContext<DataContext>(o =>
                 o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", policy =>
+                {
+                    policy
+                        .AllowAnyOrigin()
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
+                });
+            });
+
+
             builder.Services.Configure<ApiBehaviorOptions>(o =>
             {
                 o.InvalidModelStateResponseFactory = context =>
@@ -48,11 +61,16 @@ namespace Graduation_Project
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
             app.UseHttpsRedirection();
-            app.UseAuthentication();
+			//app.UseCors(builder =>
+	  //      builder.AllowAnyOrigin()
+		 //  .AllowAnyMethod()
+		 //  .AllowAnyHeader());
+			app.UseAuthentication();
             app.UseAuthorization();
 
+            app.UseStaticFiles();
+            app.UseCors("AllowAll");
 
             app.MapControllers();
             app.UseMiddleware<CustomExceptionHandler>(); 

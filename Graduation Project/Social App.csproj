@@ -21,7 +21,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Files\Images\" />
+    <None Include="wwwroot\Files\Images\8568304a-d779-468f-bf38-514f4085a938-Screenshot %286%29.png" />
+    <None Include="wwwroot\Files\Images\a6919dd9-dd2a-4c5f-90c5-f37515462e13-Screenshot %286%29.png" />
+    <None Include="wwwroot\Files\Images\bd597a6e-9783-4d37-bdd6-620cb58140f5-٢٠٢٣٠٤٢٤٠٦٤٧١٦_IMG_8068.JPG" />
+    <None Include="wwwroot\Files\Images\d01b9461-1686-49d5-b2fc-b37e1eacd5d0-Screenshot %286%29.png" />
   </ItemGroup>
 
 </Project>
