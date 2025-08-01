@@ -38,7 +38,7 @@ namespace Service_Layer
                 await _unitOfWork.CompleteAsync();
                 var comment = await _unitOfWork.Repositry<Comment, string>().GetWithSpecAsync(new CommentSpecification(CommentId));
                 await _notificationService.InsertNotification(comment.UserId, UserId, PostId, $"اعجب ب منشور لك");
-                return new Response { Status = "Success", Message = "You Like This Comment Successfully" };
+                return new Response { Status = "Success", Message = "تم الاعجاب بالتعليق بنجاح" };
             }
 
             else if (!string.IsNullOrWhiteSpace(PostId))
@@ -55,7 +55,7 @@ namespace Service_Layer
                 var Post = await _unitOfWork.Repositry<Post, string>().GetWithSpecAsync(new PostSpecification(PostId));
                 await _notificationService.InsertNotification(Post.UserId, UserId, PostId, $"اعجب ب منشور لك");
 
-                return new Response { Status = "Success", Message = "You Like This Post Successfully" };
+                return new Response { Status = "Success", Message = "تم الاعجاب بالمنشور بنجاح" };
             }
             return new Response { Status = "Failed", Message = "Id is Required" };
 
@@ -70,11 +70,11 @@ namespace Service_Layer
                     .FirstOrDefault(x => x.UserId == UserId && x.CommentId == CommentId );
 
                 if (like is null || like.UserId != UserId)
-                    return new Response { Status = "Failed", Message = "You Already Don't Like" };
+                    return new Response { Status = "Failed", Message = "انت بالفعل لست معجب بهذا التعليق" };
 
                  _unitOfWork.Repositry<LikeComment, string>().Delete(like);
                 await _unitOfWork.CompleteAsync();
-                return new Response { Status = "Success", Message = "You Dislike This Comment Successfully" };
+                return new Response { Status = "Success", Message = "تم إلغاء الاعجاب بالتعليق بنجاح" };
             }
 
             else if (!string.IsNullOrWhiteSpace(PostId))
@@ -82,11 +82,11 @@ namespace Service_Layer
                 var like = (await _unitOfWork.Repositry<LikePost, string>().GetAllAsync())
                     .FirstOrDefault(x => x.UserId == UserId && x.PostId == PostId);
                 if (like is null || like.UserId != UserId)
-                    return new Response { Status = "Failed", Message = "You Already Don't Like" };
+                    return new Response { Status = "Failed", Message = "انت بالفعل لست معجب بهذا المنشور" };
 
                 _unitOfWork.Repositry<LikePost, string>().Delete(like);
                 await _unitOfWork.CompleteAsync();
-                return new Response { Status = "Success", Message = "You Dislike This Post Successfully" };
+                return new Response { Status = "Success", Message = "تم إلغاء الاعجاب بالمنشور بنجاح" };
             }
             return new Response { Status = "Failed", Message = "Id is Required" };
         }

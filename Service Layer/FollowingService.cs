@@ -53,7 +53,7 @@ namespace Service_Layer
                 return new Response
                 {
                     Status = "Failed",
-                    Message = "You Already Don't Follow Him"
+                    Message = "هو بالفعل لا يتابعك"
                 };            
 
             _userFollowersRepository.Delete(request);
@@ -62,14 +62,14 @@ namespace Service_Layer
                 return new Response
                 {
                     Status = "Failed",
-                    Message = "Your Follow Not Canceled Successfully"
+                    Message = "حصل خطأ اثناء المتابعة"
                 };
 
 
             return new Response
             {
                 Status = "Success",
-                Message = "Your Follow Canceled Successfully"
+                Message = "تم إلغاء متابعة هذا الشخص"
             };
         }
 
@@ -80,7 +80,7 @@ namespace Service_Layer
                 return new Response
                 {
                     Status = "Failed",
-                    Message = "He Already Doesn't Follow You"
+                    Message = "انت لا تتابعه بالفعل"
                 };
 
             _userFollowersRepository.Delete(request);
@@ -89,14 +89,14 @@ namespace Service_Layer
                 return new Response
                 {
                     Status = "Failed",
-                    Message = "You Can't Canceled His Follow Successfully"
+                    Message = "حصل خطأ اثناء إلغاء المتابعة"
                 };
 
 
             return new Response
             {
                 Status = "Success",
-                Message = "You Canceled His Follow Successfully"
+                Message = "تم إلغاء المتابعة بنجاح"
             };
         }
 
@@ -118,26 +118,33 @@ namespace Service_Layer
         //    {
         //        Message = "The Request Deleted Successfully"
         //    };
-        //}
+        //}    
 
         public async Task<IEnumerable<UserPostDto>> GetFollowers(string UserId)
         {
             var specs = new UserFollowersSpecification("", UserId);
+           // var specs2 = new UserFollowersSpecification(UserId , "");
+
 
             var followers = await _userFollowersRepository.GetAllWithSpecAsync(specs);
+           
+
+
 
             var MappedFollowers = new List<UserPostDto>();
             foreach(var user in followers)
             {
+                var isFolloweing = await _userFollowersRepository.GetAsync(UserId, user.FollowerId) is not null ? true : false ;
                 MappedFollowers.Add(new UserPostDto
                 {
                     UserId = user.Follower.Id,
                     Name = $"{user.Follower.FirstName} {user.Follower.LastName}",
-                    ImagePath = string.IsNullOrWhiteSpace(user.Follower.ImageUrl) ? "" :
-                        Path.Combine(Directory.GetCurrentDirectory(), @"Files/Images", user.Follower.ImageUrl),
-                    
+                    ImagePath = string.IsNullOrWhiteSpace(user.Follower.ImageUrl) ? "" : user.Follower.ImageUrl,
+                    //IsFollowing = user.FollowingId == UserId  ? true : false,
+                    IsFollowing = isFolloweing
                 });
             }
+          
 
             return MappedFollowers;
             
@@ -156,8 +163,9 @@ namespace Service_Layer
                 {
                     UserId = user.Following.Id,
                     Name = $"{user.Following.FirstName} {user.Following.LastName}",
-                    ImagePath = string.IsNullOrWhiteSpace(user.Following.ImageUrl) ? "" :
-                        Path.Combine(Directory.GetCurrentDirectory(), @"Files/Images", user.Following.ImageUrl),
+                    ImagePath = string.IsNullOrWhiteSpace(user.Following.ImageUrl) ? "" : user.Following.ImageUrl,
+                    IsFollowing = user.FollowerId == UserId ? true : false,
+
                 });
             }
 
@@ -235,14 +243,14 @@ namespace Service_Layer
                 return new Response
                 {
                     Status = "Failed",
-                    Message = "There Isn't User With This Id"
+                    Message = "لا يوجد مستخجم بهذا المعرف"
                 };
 
             if (await _userFollowersRepository.GetAsync(userId , input.UserId) is not null)
                 return new Response
                 {
                     Status = "Failed",
-                    Message = "You Already Follow Him"
+                    Message = "انت تتابعه بالفعل"
                 };
 
             var followUser = new UserFollowers
@@ -267,7 +275,7 @@ namespace Service_Layer
             return new Response
             {
                 Status = "Success",
-                Message = "You Follow Him Now Successfully"
+                Message = "انت الآن يمكنك متابعته"
             };
 
 

@@ -16,45 +16,56 @@ namespace Service_Layer
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly INotificationService _notificationService;
-
-        public CommentService(IUnitOfWork unitOfWork, INotificationService notificationService)
+        private readonly IModelsAiService _modelsAiService;
+        public CommentService(IUnitOfWork unitOfWork, INotificationService notificationService, IModelsAiService modelsAiService)
         {
             _unitOfWork = unitOfWork;
             _notificationService = notificationService;
+            _modelsAiService = modelsAiService;
         }
 
-        public async Task<Response> DeleteComment(string UserId, string commentId)
+        public async Task<ResponseForUpdateAndDeleteDto> DeleteComment(string UserId, string commentId)
         {
-
+            var response = new Response();
             var comment = await _unitOfWork.Repositry<Comment, string>().GetAsync(commentId);
             if (comment is null)
-                return new Response
+                response =  new Response
                 {
                     Status = "Failed",
-                    Message = "No Comment With This Id"
+                    Message = "لا يوجد تعليق بهذا المعرف"
                 };
 
             if (UserId != comment.UserId)
-                return new Response
+                response =  new Response
                 {
                     Status = "Failed",
-                    Message = "You Can't Delete This Comment Because That Is Not Your Comment"
+                    Message = "لا يمكنك مسح هذا التعليق لأنه مش تعليقك"
                 };
 
 
             _unitOfWork.Repositry<Comment, string>().Delete(comment);
             if (await _unitOfWork.CompleteAsync() <= 0)
-                return new Response
+                response = new Response
                 {
                     Status = "Failed",
-                    Message = "The Comment is Not Deleted Successfully"
+                    Message = "حصل خطأ اثناء مسح التعليق"
                 };
-
-            return new Response
+            else
             {
-                Status = "Success",
-                Message = "The Comment Is Deleted Successfully"
+
+                response = new Response
+                {
+                    Status = "Success",
+                    Message = "تم مسح التعليق بنجاح"
+                };
+            }
+            return new ResponseForUpdateAndDeleteDto
+            {
+                Response = response,
+                imagePath = comment.imagePath
             };
+
+
         }
      
         public async Task<IEnumerable<CommentsDto>> GetCommentsAsync(CommentSpecificationParameter parameters , string UserId) 
@@ -80,13 +91,13 @@ namespace Service_Layer
                     {
                         UserId = comment.User.Id,
                         Name = $"{comment.User.FirstName} {comment.User.LastName}",
-                        ImagePath = string.IsNullOrWhiteSpace(comment.User.ImageUrl) ? "" :
-                         Path.Combine(Directory.GetCurrentDirectory(), @"Files/Images", comment.User.ImageUrl , UserId)
+                        ImagePath = string.IsNullOrWhiteSpace(comment.User.ImageUrl) ? "" : comment.User.ImageUrl 
                         
                     },
                     IsLiked = IsLike,
                     NumberOfLikes = LikesLength,
                     RepliesSize = comment.Recives?.Count ?? 0,
+                    imagePath = comment.imagePath           
                 };
 
                 MappedComments.Add(MappedComment);
@@ -108,73 +119,94 @@ namespace Service_Layer
                 User = user,
                 commentParentId = parentId,
                 DateTime = DateTime.Now,
+                imagePath = commentDto.ImagePath,
                 
             };
 
-            await _unitOfWork.Repositry<Comment , string>().InsertAsync(comment);
-            if (await _unitOfWork.CompleteAsync() <= 0)
+
+            
+                await _unitOfWork.Repositry<Comment, string>().InsertAsync(comment);
+                if (await _unitOfWork.CompleteAsync() <= 0)
+                    return new Response
+                    {
+                        Status = "Failed",
+                        Message = "حصل خطأ اثناء إضافة التعليق"
+                    };
+                if (parentId is null)
+                {
+                    var specs = new PostSpecification(commentDto.PostId);
+                    var post = await _unitOfWork.Repositry<Post, string>().GetWithSpecAsync(specs);
+                    await _notificationService.InsertNotification(post.UserId, UserId, post.Id, $"علق على منشور لك");
+
+                }
+                else
+                {
+                    var specs = new CommentSpecification(parentId);
+                    var Comment = await _unitOfWork.Repositry<Comment, string>().GetWithSpecAsync(specs);
+                    await _notificationService.InsertNotification(Comment.UserId, UserId, Comment.PostId, $"علق على تعليق لك");
+
+
+                }
+
                 return new Response
                 {
-                    Status = "Failed",
-                    Message = "The Comment Is Not Added Successfully"
+                    Status = "Success",
+                    Message = "تم إضافة التعليق بنجاح"
                 };
-            if(parentId is null)
-            {
-                var specs = new PostSpecification(commentDto.PostId);
-                var post = await _unitOfWork.Repositry<Post, string>().GetWithSpecAsync(specs);
-                await _notificationService.InsertNotification(post.UserId, UserId, post.Id, $"علق على منشور لك");
+           
 
-            }
-            else
-            {
-                var specs = new CommentSpecification(parentId);
-                var Comment = await _unitOfWork.Repositry<Comment, string>().GetWithSpecAsync(specs);
-                await _notificationService.InsertNotification(Comment.UserId, UserId, Comment.PostId, $"علق على تعليق لك");
-                
-
-            }
-
-            return new Response
-            {
-                Status = "Success",
-                Message = "The Comment Is Added Successfully"
-            };
         }
 
-        public async Task<Response> UpdateComment(InputCommentDto commentDto, string UserId, string commentId)
+        public async Task<ResponseForUpdateAndDeleteDto> UpdateComment(InputCommentDto commentDto, string UserId, string commentId)
         {
-            var specs = new CommentSpecification(commentId);
+            string oldImagePath = "";
 
+            oldImagePath = commentDto.ImagePath ?? "";
+
+            var specs = new CommentSpecification(commentId);
+            var response = new Response();
             var comment = await _unitOfWork.Repositry<Comment , string>().GetWithSpecAsync(specs);
             if (comment is null)
-                return new Response
+                response = new Response
                 {
                     Status = "Failed",
-                    Message = "No Comment With This Id"
+                    Message = "لا يوجد تعليق بهذا المعرف"
                 };
 
             if (UserId != comment.UserId)
-                return new Response
+                response =  new Response
                 {
                     Status = "Failed",
-                    Message = "You Can't Delete This Comment Because That Is Not Your Comment"
+                    Message = "حصل خطأ اثناء تعديل ال التعليق لأنه ليس تعليقك"
                 };
 
             comment.Content = commentDto.CommentContent;
+            comment.imagePath = commentDto.ImagePath;
 
-            _unitOfWork.Repositry<Comment, string>().Update(comment);
+           
+                _unitOfWork.Repositry<Comment, string>().Update(comment);
             if (await _unitOfWork.CompleteAsync() <= 0)
-                return new Response
+                response = new Response
                 {
                     Status = "Failed",
-                    Message = "The Comment is Not Updated Successfully"
+                    Message = "فشل تعديل هذا التعليق"
                 };
-
-            return new Response
+            else
             {
-                Status = "Success",
-                Message = "The Comment Is Updated Successfully"
+
+                response = new Response
+                {
+                    Status = "Success",
+                    Message = "تم تعديل التعليق بنجاح"
+                };
+            }
+
+            return new ResponseForUpdateAndDeleteDto
+            {
+                Response = response,
+                imagePath = oldImagePath
             };
+
         }
     }
 }

@@ -2,6 +2,7 @@
 using Core_Layer.Entities;
 using Core_Layer.Inetrfaces.Repositries;
 using Core_Layer.Inetrfaces.Services;
+using Microsoft.EntityFrameworkCore;
 using Repository_Layer.Specifications;
 using System;
 using System.Collections.Generic;
@@ -17,7 +18,7 @@ namespace Service_Layer
         private readonly ILikeService _likeService;
         private readonly ICommentService _commentService;
         private readonly IFollowingService _followingService;
-        public PostService(IUnitOfWork unitOfWork, ILikeService likeService, ICommentService commentService, IFollowingService followingService)
+        public PostService(IUnitOfWork unitOfWork, ILikeService likeService, ICommentService commentService, IFollowingService followingService, IModelsAiService modelsAiService)
         {
             _unitOfWork = unitOfWork;
             _likeService = likeService;
@@ -35,56 +36,86 @@ namespace Service_Layer
                 User = user,
                 UserId = UserId,
                 DateTime = DateTime.Now,
+                imagePath = inputPost.ImagePath,
             };
-
+            
             await _unitOfWork.Repositry<Post, string>().InsertAsync(post);
             if (await _unitOfWork.CompleteAsync() <= 0)
                 return new Response
                 {
                     Status = "Failed",
-                    Message = "Your Post Not Added Successfully"
+                    Message = "حصل خطأ اثناء إضافة منشورك"
                 };
 
             return new Response
             {
                 Status = "Success",
-                Message = "Your Post Added Successfully"
+                Message = "تم إضافة منشورك بنجاح"
             };
+            
+            
+                
         }
 
-        public async Task<Response> DeletePost(DeletePostDto deletePost, string UserId)
+        public async Task<ResponseForUpdateAndDeleteDto> DeletePost(DeletePostDto deletePost, string UserId)
         {
+            Response response = new Response();
+            
             var specs = new PostSpecification(deletePost.PostId);
             var post = await _unitOfWork.Repositry<Post, string>().GetWithSpecAsync(specs);
             if (post is null)
-                return new Response
+                 response =  new Response
                 {
                     Status = "Failed",
-                    Message = "No Posts With This Id"
-                };
+                     Message = "لا يوجد منشور بهذا المعرف"
+                 };
 
             if (UserId != post.UserId)
-                return new Response
+                response = new Response
                 {
                     Status = "Failed",
-                    Message = "You Can't Delete This Post Because This Is Not Your Post"
+                    Message = "لا يمكنك مسح هذا المنشور"
                 };
 
-            _unitOfWork.Repositry<Post , string>().Delete(post);
-            if (await _unitOfWork.CompleteAsync() > 0)
-                return new Response
+            // حذف اللايكات المرتبطة بالبوست
+            var likes = (await _unitOfWork.Repositry<LikePost, string>().GetAllAsync())
+                .Where(p => p.PostId == post.Id).ToList();
+            foreach (var like in likes)
+                _unitOfWork.Repositry<LikePost, string>().Delete(like);
+
+            // حذف الكومنتات المرتبطة بالبوست
+            var comments = (await _unitOfWork.Repositry<Comment, string>().GetAllAsync())
+                .Where(p => p.PostId == post.Id).ToList();
+            foreach (var comment in comments)
+                _unitOfWork.Repositry<Comment, string>().Delete(comment);
+
+            // أخيرًا احذف البوست نفسه
+            _unitOfWork.Repositry<Post, string>().Delete(post);
+
+            if (await _unitOfWork.CompleteAsync() <= 0)
+                response =  new Response
                 {
                     Status = "Failed",
-                    Message = "Your Post Not Deleted Successfully"
+                    Message = "حصل خطأ اثناء مسح منشورك"
                 };
 
-           
+            
             else
-                return new Response
+            {
+                
+                response =  new Response
                 {
                     Status = "Success",
-                    Message = "Your Post Deleted Successfully"
+                    Message = "تم مسح منشورك بنجاح"
                 };
+            }
+
+            return new ResponseForUpdateAndDeleteDto
+            {
+                Response = response,
+                imagePath = post.imagePath
+            };
+                
         } 
 
         public async Task<IEnumerable<PostDto>> GetAllPosts(PostSpecificationParameters specsParameters , string UserId)
@@ -111,12 +142,12 @@ namespace Service_Layer
                     {
                         UserId = post.User.Id,
                         Name = $"{post.User.FirstName} {post.User.LastName}",
-                        ImagePath = string.IsNullOrWhiteSpace(post.User.ImageUrl) ? "" :
-                         Path.Combine(Directory.GetCurrentDirectory(), @"Files/Images", post.User.ImageUrl)
+                        ImagePath = post.User.ImageUrl ?? ""
                     },
                     IsYouLike = IsLike,
                     NumberOfLikes = LikesLength,
-                    NumberOfComments = CommentsLength
+                    NumberOfComments = CommentsLength,
+                    imagePath = post.imagePath
 
                 });
             }
@@ -162,50 +193,62 @@ namespace Service_Layer
                 {
                     UserId = post.User.Id,
                     Name = $"{post.User.FirstName} {post.User.LastName}",
-                    ImagePath = string.IsNullOrWhiteSpace(post.User.ImageUrl) ? "" :
-                         Path.Combine(Directory.GetCurrentDirectory(), @"Files/Images", post.User.ImageUrl, UserId)
+                    ImagePath = post.User.ImageUrl ?? ""
                 },
                 IsYouLike = IsLike,
                 NumberOfComments = CommentsLength,
-                NumberOfLikes = LikesLength
+                NumberOfLikes = LikesLength , 
+                imagePath = post.imagePath
             };
         }
 
-        public async Task<Response> UpdatePost(UpdatePostDto inputPost, string PostId , string UserId)
+        public async Task<ResponseForUpdateAndDeleteDto> UpdatePost(UpdatePostDto inputPost, string PostId , string UserId)
         {
-
+            string oldImagePath = "";
             var specs = new PostSpecification(PostId);
-            var post = await _unitOfWork.Repositry<Post, string>().GetWithSpecAsync(specs); if (post is null)
-                return new Response
+            Response response = new Response();
+            var post = await _unitOfWork.Repositry<Post, string>().GetWithSpecAsync(specs);
+            oldImagePath = post.imagePath ?? "";
+            if (post is null)
+                response =  new Response
                 {
                     Status = "Failed",
-                    Message = "No Posts With This Id"
+                    Message = "لا يوجد منشور بهذا المعرف"
                 };
             if (UserId != post.UserId)
-                return new Response
+                response =  new Response
                 {
                     Status = "Failed",
-                    Message = "You Can't Update This Post Because This Is Not Your Post"
+                    Message = "لا يمكنك تعديل هذا المنشور"
                 };
 
             post.Content = inputPost.NewContent;
+            post.imagePath = inputPost.imagePath;
 
-            _unitOfWork.Repositry<Post, string>().Update(post);
-            if (await _unitOfWork.CompleteAsync() <= 0)
-                return new Response
+            
+                _unitOfWork.Repositry<Post, string>().Update(post);
+                if (await _unitOfWork.CompleteAsync() <= 0)
+                    response = new Response
+                    {
+                        Status = "Failed",
+                        Message = "حصل خطأ اثناء تعديل منشورك"
+                    };
+
+
+
+                response = new Response
                 {
-                    Status = "Failed",
-                    Message = "Your Post Not Updated Successfully"
+                    Status = "Success",
+                    Message = "تم تعديل منشورك بنجاح"
                 };
+          
 
 
-
-            return new Response
+            return new ResponseForUpdateAndDeleteDto
             {
-                Status = "Success",
-                Message = "Your Post Updated Successfully"
+                Response = response,
+                imagePath = oldImagePath
             };
-
         }
 
 

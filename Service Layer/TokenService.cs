@@ -32,8 +32,10 @@ namespace Service_Layer
                 new Claim(ClaimTypes.Email , appUser.Email),
                 new Claim(ClaimTypes.NameIdentifier , appUser.Id),
                 new Claim(ClaimTypes.Name , appUser.UserName),
-                new Claim("IsBlind" , appUser.IsBlind.ToString())
-                
+                new Claim("IsBlind" , appUser.IsBlind.ToString()),
+                new Claim("PunishedUntil" , appUser.PunishedUntil.ToString() ?? "")
+
+
             };
 
             // add roles as claims

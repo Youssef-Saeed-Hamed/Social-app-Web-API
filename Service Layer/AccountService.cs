@@ -40,7 +40,7 @@ namespace Service_Layer
                 return new Response
                 {
                     Status = "Failed",
-                    Message = "This Email Is Not Exist"
+                    Message = "هذا البريد الإلكترونى  غير موجود"
                 };
 
             var result = await _signInManger.CheckPasswordSignInAsync(user, dto.CurrentPassword, false);
@@ -48,7 +48,7 @@ namespace Service_Layer
                 return new Response
                 {
                     Status = "Failed",
-                    Message = "InCorrect Email Or Password"
+                    Message = "خطأ فى البريد الإلكترونى او كلمة المرور "
                 };
 
             var NewPasswordResult = await _userManager.ChangePasswordAsync(user,dto.CurrentPassword , dto.NewPassword);
@@ -56,12 +56,12 @@ namespace Service_Layer
                 return new Response
                 {
                     Status = "Failed",
-                    Message = "InCorrect To Change The Password"
+                    Message = "حصل خطأ اثناء تغيير كلمة المرور"
                 };
             return new Response
             {
                 Status = "Success",
-                Message = "Your Password Changes Successfully , Now You Can Login By New Password"
+                Message = "تم تغيير كلمة مرورك بنجاح ,تقدر تعمل تسجيل دخول بكلمة المرور الجديدة"
             };
 
 
@@ -75,12 +75,12 @@ namespace Service_Layer
 
             // if user not exist return response this user is not exist 
             if (user is null)
-                throw new Exception($"This Email {UserDto.Email} Is Not Exists");
+                throw new Exception($" غير موجود {UserDto.Email} هذا البريد الألكترونى ");
 
             // check that password which user is send it == password for this user
             var result = await _signInManger.CheckPasswordSignInAsync(user, UserDto.Password , false);
             if (!result.Succeeded)
-                throw new Exception("May be Wrong Email Or Password");
+                throw new Exception("حصل خطأ فى البريد الالكترونى او كلمة المرور");
             return new ReturnLoginDto
             {
                 Id = user.Id,
@@ -117,7 +117,8 @@ namespace Service_Layer
                     userCheck = null;
                 }
                 else // is not null and his email was confirmed 
-                    throw new Exception($"This Email {userCheck.Email} is Already Exists");
+
+                    throw new Exception($"موجود بالفعل {userCheck.Email} هذا البريد الإلكترونى ");
 
                
 
@@ -134,7 +135,7 @@ namespace Service_Layer
             // create an new user in app
             var result = await _userManager.CreateAsync(AppUser , UserDto.Password );
             if (!result.Succeeded)
-                throw new Exception("InValid Password");
+                throw new Exception("كلمة مرور خطأ");
 
             
             // make an object from user 
@@ -146,6 +147,7 @@ namespace Service_Layer
                 LastName = UserDto.LastName,
                 ImageUrl = UserDto.ImageUrl,
                 IsBlind = UserDto.IsBlind
+                
             };
             // add this user in users tables
             await _unitOfWork.Repositry<User, string>().InsertAsync(User);
@@ -156,7 +158,7 @@ namespace Service_Layer
             return new Response
             {
                 Status = "Success",
-                Message = "User Create Successfully And Mail Confirmation Sent Check Your Inbox"
+                Message = "تم التسجيل بنجاح يجب تأكيد بريدك الإلكترونى , افحص بريدك الإلكترونى"
             };
 
 
@@ -172,10 +174,10 @@ namespace Service_Layer
                 var result = await _userManager.ConfirmEmailAsync(user, token);
                 // confirm is succeeded return response that email is confirmed successfully 
                 if (result.Succeeded)
-                    return new Response { Status = "Success", Message = "Email Is Confirmed Successfully" }; 
+                    return new Response { Status = "Success", Message = "تم تأكيد بريدك الإلكترونى بنجاح" }; 
             }
             // email is not confirmed
-            return new Response { Status = "Failed", Message = "Email Is Not Confirmed" };
+            return new Response { Status = "Failed", Message = "لم يتم تأكيد بريدك الالكترونى لوجود خطأ ما" };
         }
     }
 }

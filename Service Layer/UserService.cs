@@ -2,6 +2,8 @@
 using Core_Layer.Entities;
 using Core_Layer.Inetrfaces.Repositries;
 using Core_Layer.Inetrfaces.Services;
+using Repository_Layer.Repositries;
+using Repository_Layer.Specifications;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,82 +16,123 @@ namespace Service_Layer
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IFollowingService _followingService;
+        private readonly IUserFollowersRepository _userFollowersRepository;
+
         private readonly IPostService _postService;
 
-        public UserService(IUnitOfWork unitOfWork, IFollowingService followingService, IPostService postService)
+        public UserService(IUnitOfWork unitOfWork, IFollowingService followingService, IPostService postService, IUserFollowersRepository userFollowersRepository)
         {
             _unitOfWork = unitOfWork;
             _followingService = followingService;
             _postService = postService;
+            _userFollowersRepository = userFollowersRepository;
         }
 
         public async Task<IEnumerable<ReturnUsersDto>> GetAllUsers(string UserId)
         {
             var users = await _unitOfWork.Repositry<User , string >().GetAllAsync();
-            
+            var followings = await _followingService.GetFollowings(UserId);
             var MappedUsers = new List<ReturnUsersDto>();
             foreach (var user in users)
             {
                 if (user.Id == UserId)
                     continue;
-                MappedUsers.Add(new ReturnUsersDto
+
+                bool isFollowing = false;
+                foreach (var follower in followings)
                 {
-                    Id = user.Id,
-                    Name = $"{user.FirstName} {user.LastName}",
-                    ImageUrl = string.IsNullOrWhiteSpace(user.ImageUrl) ? "" :
-                         Path.Combine(Directory.GetCurrentDirectory(), @"Files/Images", user.ImageUrl),
-                });
+                    if(user.Id == follower.UserId)
+                    {
+                        isFollowing = true;
+                        break;
+                    }
+                    
+                   
+                   
+                }
+                if (!isFollowing)
+                {
+                    MappedUsers.Add(new ReturnUsersDto
+                    {
+                        Id = user.Id,
+                        Name = $"{user.FirstName} {user.LastName}",
+                        ImageUrl = user.ImageUrl ?? ""
+                    });
+
+
+                }
+                
             }
+
                 
 
             return MappedUsers;
             
         }
 
-        public async Task<UserProfileDto> GetMyProfile(string Id)
+        public async Task<UserProfileDto> GetMyProfile(string Id , string email)
+
         {
+            var specs = new UserFollowersSpecification("", Id);
+            var specs2 = new UserFollowersSpecification(Id, "");
+
+
+            var followers = await _userFollowersRepository.GetAllWithSpecAsync(specs);
+            var followings = await _userFollowersRepository.GetAllWithSpecAsync(specs2);
+
             var user = await _unitOfWork.Repositry<User , string>().GetAsync(Id);
             if (user is null)
-                throw new Exception("You Are Not Authorized");
+                throw new Exception("ليس لديك صلاحية الوصول");
 
             return new UserProfileDto
             {
+                Email = email,
+                IsBlind = user.IsBlind,
                 Id = user.Id,
                 Name = $"{user.FirstName} {user.LastName}",
-                ImagePath = string.IsNullOrWhiteSpace(user.ImageUrl) ? "" :
-                            Path.Combine(Directory.GetCurrentDirectory(), @"Files/Images", user.ImageUrl),
+                ImagePath = string.IsNullOrWhiteSpace(user.ImageUrl) ? "" : user.ImageUrl,
                 BirthDate = user.BirthDate,
-                Posts = await _postService.GetAllPosts(new PostSpecificationParameters{ UserId = user.Id} ,Id )
+                Posts = await _postService.GetAllPosts(new PostSpecificationParameters { UserId = user.Id }, Id),
+                numberOfFollowers =  followers.Count(),
+                numberOfFollowings = followings.Count()
+                
             };
         }
 
         public async Task<UserProfileDto> GetUserProfile(string Id , string UserId )
         {
-            var Followings = await _followingService.GetFollowings(Id);
-            var User = await _unitOfWork.Repositry<User , string>().GetAsync(UserId);
+            //var Followings = await _followingService.GetFollowings(Id);
+            var user = await _unitOfWork.Repositry<User , string>().GetAsync(UserId);
 
-            if (User is null)
-                throw new Exception("No User With Id ");
-            UserProfileDto? userProfile = null;
-            foreach(var user in Followings)
+            var specs = new UserFollowersSpecification("", UserId);
+            var specs2 = new UserFollowersSpecification(UserId, "");
+
+
+            var followers = await _userFollowersRepository.GetAllWithSpecAsync(specs);
+            var followings = await _userFollowersRepository.GetAllWithSpecAsync(specs2);
+
+            if (user is null)
+                throw new Exception("لا يوجد مستخدم بهذا المعرف ");
+            UserProfileDto userProfile =  new UserProfileDto() ;
+
+            userProfile = new UserProfileDto
             {
-                if (user.UserId == UserId)
-                {
-                    userProfile = new UserProfileDto
-                    {
-                        Id = user.UserId,
-                        Name = user.Name,
-                        ImagePath = string.IsNullOrWhiteSpace(user.ImagePath) ? "" :
-                            Path.Combine(Directory.GetCurrentDirectory(), @"Files/Images", user.ImagePath),
-                        BirthDate = User.BirthDate,
-                        Posts = await _postService.GetAllPosts(new PostSpecificationParameters { UserId = user.UserId } , Id),
-                    };
-                }
-                    
-            }
+                Id = user.Id,
+                Name = $"{user.FirstName} {user.LastName}",
+                ImagePath = string.IsNullOrWhiteSpace(user.ImageUrl) ? "" : user.ImageUrl,
 
-            if (userProfile is null)
-                throw new Exception("You Don't Follow This User");
+                BirthDate = user.BirthDate,
+                Posts = await _postService.GetAllPosts(new PostSpecificationParameters { UserId = user.Id }, Id),
+                IsBlind = user.IsBlind,
+                numberOfFollowers = followers.Count(),
+                numberOfFollowings = followings.Count()
+            };
+
+                
+                   
+            
+
+            
 
             return userProfile;
         }
@@ -97,7 +140,7 @@ namespace Service_Layer
         {
             var user = await _unitOfWork.Repositry<User, string>().GetAsync(userId);
             if (user is null)
-                throw new Exception("You Are Not Authorized");
+                throw new Exception("ليس لديك صلاحية الوصول");
             return new UserPostDto
             {
                 UserId = user.Id,
@@ -113,7 +156,7 @@ namespace Service_Layer
                 return new Response
                 {
                     Status = "Failed",
-                    Message = "You Are Not Authorized"
+                    Message = "ليس لديك صلاحية الوصول"
                 };
 
             user.FirstName = input.FirstName;
@@ -126,12 +169,12 @@ namespace Service_Layer
                 return new Response
                 {
                     Status = "Failed",
-                    Message = "Your Data Didn't Updated Successfully"
+                    Message = "حصل خطأ اثناء تعديل معلوماتك"
                 };
             return new Response
             {
                 Status = "Success",
-                Message = "Your Data Updated Successfully"
+                Message = "تم تعديل معلوماتك بنجاح"
             };
 
         }

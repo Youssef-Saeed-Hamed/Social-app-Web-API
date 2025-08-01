@@ -49,3 +49,40 @@ G:\Social App\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Servi
 G:\Social App\Social App Graduation Project\Service Layer\obj\Debug\net6.0\refint\Service Layer.dll
 G:\Social App\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.pdb
 G:\Social App\Social App Graduation Project\Service Layer\obj\Debug\net6.0\ref\Service Layer.dll
+G:\Social App\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.sourcelink.json
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Service Layer\bin\Debug\net6.0\Service Layer.deps.json
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Service Layer\bin\Debug\net6.0\Service Layer.dll
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Service Layer\bin\Debug\net6.0\Service Layer.pdb
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Service Layer\bin\Debug\net6.0\Core Layer.dll
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Service Layer\bin\Debug\net6.0\Repository Layer.dll
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Service Layer\bin\Debug\net6.0\Repository Layer.pdb
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Service Layer\bin\Debug\net6.0\Core Layer.pdb
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.csproj.AssemblyReference.cache
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.GeneratedMSBuildEditorConfig.editorconfig
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.AssemblyInfoInputs.cache
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.AssemblyInfo.cs
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.csproj.CoreCompileInputs.cache
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.sourcelink.json
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service .3A89A60B.Up2Date
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.dll
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Service Layer\obj\Debug\net6.0\refint\Service Layer.dll
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.pdb
+G:\New folder (6)\New folder (2)\Social App Graduation Project\Service Layer\obj\Debug\net6.0\ref\Service Layer.dll
+D:\Graduation Project\Backend\Social App Graduation Project\Service Layer\bin\Debug\net6.0\Service Layer.deps.json
+D:\Graduation Project\Backend\Social App Graduation Project\Service Layer\bin\Debug\net6.0\Service Layer.dll
+D:\Graduation Project\Backend\Social App Graduation Project\Service Layer\bin\Debug\net6.0\Service Layer.pdb
+D:\Graduation Project\Backend\Social App Graduation Project\Service Layer\bin\Debug\net6.0\Core Layer.dll
+D:\Graduation Project\Backend\Social App Graduation Project\Service Layer\bin\Debug\net6.0\Repository Layer.dll
+D:\Graduation Project\Backend\Social App Graduation Project\Service Layer\bin\Debug\net6.0\Repository Layer.pdb
+D:\Graduation Project\Backend\Social App Graduation Project\Service Layer\bin\Debug\net6.0\Core Layer.pdb
+D:\Graduation Project\Backend\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.csproj.AssemblyReference.cache
+D:\Graduation Project\Backend\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Graduation Project\Backend\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.AssemblyInfoInputs.cache
+D:\Graduation Project\Backend\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.AssemblyInfo.cs
+D:\Graduation Project\Backend\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.csproj.CoreCompileInputs.cache
+D:\Graduation Project\Backend\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.sourcelink.json
+D:\Graduation Project\Backend\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service .3A89A60B.Up2Date
+D:\Graduation Project\Backend\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.dll
+D:\Graduation Project\Backend\Social App Graduation Project\Service Layer\obj\Debug\net6.0\refint\Service Layer.dll
+D:\Graduation Project\Backend\Social App Graduation Project\Service Layer\obj\Debug\net6.0\Service Layer.pdb
+D:\Graduation Project\Backend\Social App Graduation Project\Service Layer\obj\Debug\net6.0\ref\Service Layer.dll
