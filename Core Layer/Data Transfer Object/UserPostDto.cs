@@ -11,6 +11,7 @@ namespace Core_Layer.Data_Transfer_Object
         public string UserId { get; set; } 
         public string Name { get; set; }
         public string ImagePath { get; set; }
+        public bool IsFollowing {  get; set; }
 
     }
 }

@@ -12,7 +12,10 @@ namespace Core_Layer.Entities
         public User User { get; set; }
         public string UserId { get; set; }
         public IEnumerable<Comment> Comments { get; set; }
-        public DateTime DateTime { get; set; }
+        public ICollection<LikePost> LikePosts { get; set; }
 
+
+        public DateTime DateTime { get; set; }
+        public string? imagePath {  get; set; }
     }
 }

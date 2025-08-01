@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Core_Layer.Data_Transfer_Object
 {
-    public class InputPostDto
+    public class PredictionResponseDto
     {
         
-        public string Content { get; set; }
-        public string? ImagePath { get; set; }
+        public string Prediction { get; set; }
+        
     }
 }

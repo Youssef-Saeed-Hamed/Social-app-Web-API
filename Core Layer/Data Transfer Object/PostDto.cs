@@ -15,6 +15,7 @@ namespace Core_Layer.Data_Transfer_Object
         public int NumberOfLikes { get; set; }
         public int NumberOfComments { get; set; }
         public DateTime DateTime { get; set; }
+        public string? imagePath { get; set; }
         
     }
 }

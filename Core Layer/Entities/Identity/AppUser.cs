@@ -10,5 +10,7 @@ namespace Core_Layer.Entities.Identity
     public class AppUser : IdentityUser
     {
         public bool IsBlind { get; set; }
+        public int counterOfBullying { get; set; } = 5;
+        public DateTime? PunishedUntil { get; set; }
     }
 }

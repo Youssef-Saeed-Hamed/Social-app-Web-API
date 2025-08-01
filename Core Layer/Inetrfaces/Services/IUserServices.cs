@@ -11,7 +11,7 @@ namespace Core_Layer.Inetrfaces.Services
     {
         public Task<IEnumerable<ReturnUsersDto>> GetAllUsers(string UserId);
         public Task<UserProfileDto> GetUserProfile(string Id, string UserId);
-        public Task<UserProfileDto> GetMyProfile(string Id);
+        public Task<UserProfileDto> GetMyProfile(string Id ,  string email);
         public Task<Response> UpdateProfile(InputUpdateProfileDto input , string UserId);
         public Task<UserPostDto> GetUserData(string userId);
 

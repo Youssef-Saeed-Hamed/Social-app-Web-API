@@ -8,11 +8,16 @@ namespace Core_Layer.Data_Transfer_Object
 {
     public class UserProfileDto
     {
+        public string Email  { get; set; }
+        public bool IsBlind { get; set; }
         public string Id { get; set; }
         public string Name { get; set; }
         public string ImagePath { get; set; }
         public DateTime BirthDate { get; set; }
         public IEnumerable<PostDto> Posts { get; set; }
+        public int numberOfFollowers { get; set; }
+        public int numberOfFollowings { get; set; }
+
 
     }
 }

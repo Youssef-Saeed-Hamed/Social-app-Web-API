@@ -28,5 +28,6 @@ namespace Core_Layer.Data_Transfer_Object
         [Compare("Password", ErrorMessage = "Confirm Password doesn't Match")]
         public string ConfirmPassword  { get; set;}
         public bool IsBlind { get; set; }
+        public string ConfirmEmailUrl { get; set; }
     }
 }

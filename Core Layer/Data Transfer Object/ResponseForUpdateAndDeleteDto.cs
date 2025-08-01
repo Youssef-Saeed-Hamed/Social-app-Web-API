@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Core_Layer.Data_Transfer_Object
 {
-    public class InputPostDto
+    public class ResponseForUpdateAndDeleteDto
     {
-        
-        public string Content { get; set; }
-        public string? ImagePath { get; set; }
+        public Response Response {  get; set; }
+        public string? imagePath { get; set; }
     }
 }

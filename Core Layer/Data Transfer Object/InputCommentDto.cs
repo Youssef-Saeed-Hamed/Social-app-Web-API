@@ -10,5 +10,7 @@ namespace Core_Layer.Data_Transfer_Object
     {
         public string PostId {  get; set; }
         public string CommentContent { get; set; }
+        public string? ImagePath { get; set; }
+
     }
 }

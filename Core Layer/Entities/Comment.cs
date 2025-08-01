@@ -17,5 +17,7 @@ namespace Core_Layer.Entities
         public string PostId { get; set; }
         public User User { get; set; }
         public string UserId { get; set; }
+        public string? imagePath { get; set; }
+
     }
 }

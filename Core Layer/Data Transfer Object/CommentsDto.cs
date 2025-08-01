@@ -17,9 +17,11 @@ namespace Core_Layer.Data_Transfer_Object
         public int NumberOfLikes { get; set; }
         public bool IsLiked { get; set; }
         public DateTime DateTime { get; set; }
+        public string? imagePath { get; set; }
+
         //public IEnumerable<CommentsDto>? Replies { get; set; }
 
 
-    
+
     }
 }

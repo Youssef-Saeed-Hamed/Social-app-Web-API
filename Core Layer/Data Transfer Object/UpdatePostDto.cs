@@ -9,6 +9,7 @@ namespace Core_Layer.Data_Transfer_Object
     public class UpdatePostDto
     {
         public string NewContent { get; set; }
+        public string? imagePath { get; set; }
 
     }
 }
