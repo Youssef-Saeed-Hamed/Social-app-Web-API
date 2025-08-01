@@ -733,7 +733,10 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.33"
         },
         "runtime": {
-          "Core Layer.dll": {}
+          "Core Layer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Repository Layer/1.0.0": {
@@ -742,7 +745,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.33"
         },
         "runtime": {
-          "Repository Layer.dll": {}
+          "Repository Layer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Service Layer/1.0.0": {
@@ -751,7 +757,10 @@
           "Repository Layer": "1.0.0"
         },
         "runtime": {
-          "Service Layer.dll": {}
+          "Service Layer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

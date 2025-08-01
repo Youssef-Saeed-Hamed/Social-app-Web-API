@@ -29,7 +29,7 @@ namespace Graduation_Project.Controllers
                 return Unauthorized(new Response
                 {
                     Status = "Failed",
-                    Message = "You Are Not Authoized"
+                    Message = "ليس لديك صلاحية الوصول"
                 });
             var response = await _followingService.SendFollow(input, UserId);
             if (response.Status == "Success")
@@ -37,7 +37,7 @@ namespace Graduation_Project.Controllers
             else
                 return StatusCode(StatusCodes.Status500InternalServerError, response);
         }
-        [HttpDelete("Follow")]
+        [HttpDelete("CancelFollower")]
         public async Task<ActionResult<Response>> CancelFollow(InputFollowerDto input)
         {
             var UserId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
@@ -45,7 +45,7 @@ namespace Graduation_Project.Controllers
                 return Unauthorized(new Response
                 {
                     Status = "Failed",
-                    Message = "You Are Not Authoized"
+                    Message = "ليس لديك صلاحية الوصول"
                 });
             var response = await _followingService.CancelFollow(input, UserId);
             if (response.Status == "Success")
@@ -53,7 +53,7 @@ namespace Graduation_Project.Controllers
             else
                 return StatusCode(StatusCodes.Status500InternalServerError, response);
         }
-        [HttpDelete("CancelFollower")]
+        [HttpDelete("CancelFollow")]
         public async Task<ActionResult<Response>> CancelFollower(InputFollowerDto input)
         {
             var UserId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
@@ -61,7 +61,7 @@ namespace Graduation_Project.Controllers
                 return Unauthorized(new Response
                 {
                     Status = "Failed",
-                    Message = "You Are Not Authoized"
+                    Message = "ليس لديك صلاحية الوصول"
                 });
             var response = await _followingService.CancelFollower(input, UserId);
             if (response.Status == "Success")

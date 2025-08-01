@@ -6,7 +6,10 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.WebUtilities;
 using Service_Layer;
+using System.Net;
+using System.Text;
 
 namespace Graduation_Project.Controllers
 {
@@ -31,15 +34,23 @@ namespace Graduation_Project.Controllers
             var response = await _accountService.RegisterAsync(user);
             // after make a register get the user to send an email to confirm his email 
             var Appuser = await _userManager.FindByEmailAsync(user.Email);
-            
+
             // generate token for confirm email by pass user
             var token = await _userManager.GenerateEmailConfirmationTokenAsync(Appuser);
-            //Create url and frontend developer will make a ui for this url
-            var url = Url.Action(nameof(ConfirmEmail), "Account", new {token = token ,email = Appuser.Email } , Request.Scheme);
-            var Email = new Email
+
+
+			var tokenBytes = Encoding.UTF8.GetBytes(token);
+			var safeToken = WebEncoders.Base64UrlEncode(tokenBytes);
+			var encodedEmail = WebUtility.UrlEncode(Appuser.Email);
+
+			//Create url and frontend developer will make a ui for this url
+			//var url = Url.Action(nameof(ConfirmEmail), "Account", new {token = token ,email = Appuser.Email } , Request.Scheme);
+			var url = $"{user.ConfirmEmailUrl}?token={safeToken}&email={encodedEmail}";
+
+			var Email = new Email
             {
                 Body = url!,
-                Subject = "Confirmation Email Link",
+                Subject = "تأكيد بريدك الإلكترونى",
                 To = user.Email
             };
             // send an email and its body has url when user click on the email it gnrate end point confirm email
@@ -67,9 +78,26 @@ namespace Graduation_Project.Controllers
         }
 
         [HttpGet("ConfirmEmail")]
-        public async Task<IActionResult> ConfirmEmail(string token, string email)
+        public async Task<IActionResult> ConfirmEmail(string token,string email)
         {
-            var response = await _accountService.VerifyEmail(token, email);
+
+
+
+            byte[] tokenBytes;
+            try
+            {
+            	tokenBytes = WebEncoders.Base64UrlDecode(token);
+            }
+            catch
+            {
+            	return BadRequest("رمزك المميز غير متاح");
+            }
+            var decodedToken = Encoding.UTF8.GetString(tokenBytes);
+            var decodedEmail = WebUtility.UrlDecode(email);
+
+
+            var response = await _accountService.VerifyEmail(decodedToken, decodedEmail);
+            //var response = await _accountService.VerifyEmail(token, email);
             if (response.Status == "Success")
                 return StatusCode(StatusCodes.Status200OK, response);
             else
@@ -88,7 +116,7 @@ namespace Graduation_Project.Controllers
                 var Email = new Email
                 {
                     To = input.Email,
-                    Subject = "Confirm Email For Reset Password",
+                    Subject = "تأكيد بريدك الالكترونى لإعادة تعيين كلمة المرور",
                     Body = url!
                 };
 
@@ -97,13 +125,13 @@ namespace Graduation_Project.Controllers
                 return StatusCode(StatusCodes.Status200OK, new Response
                 {
                     Status = "Success",
-                    Message = "Check Your Email And Click on The Link To Confirm Email To Reset Password"
+                    Message = "أفحص بريدك الإلكترونى واضغط على الرابط لتاكيد البريد الإلكترونى"
                 });
             }
             return StatusCode(StatusCodes.Status500InternalServerError, new Response
             {
                 Status = "Failed",
-                Message = "Your Email Not Exist"
+                Message = "بريدك الإلكترونى غير موجود"
             });
         }
         [HttpGet("ResetPassword")]
@@ -137,13 +165,13 @@ namespace Graduation_Project.Controllers
                 return StatusCode(StatusCodes.Status200OK, new Response
                 {
                     Status = "Success",
-                    Message = "Your Password Changed Now You Can Login With New Password"
+                    Message = "تم تغيير كلمة مروررك يمكنك الآن التسجيل بكلمة المرور الجديدة"
                 });
             }
             return StatusCode(StatusCodes.Status500InternalServerError, new Response
             {
                 Status = "Failed",
-                Message = "Your Password Not Changed"
+                Message = "كلمة المرور لم تتغير"
             });
         }
 

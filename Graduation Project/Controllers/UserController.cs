@@ -27,7 +27,7 @@ namespace Graduation_Project.Controllers
                 return Unauthorized(new Response
                 {
                     Status = "Failed",
-                    Message = "You Are Not Authoized"
+                    Message = "ليس لديك صلاحية الوصول"
                 });
             return Ok(await _userService.GetAllUsers(UserId));
         }
@@ -37,7 +37,7 @@ namespace Graduation_Project.Controllers
         {
             var Id = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             if (Id is null)
-                return Unauthorized("You are Not Authorized");
+                return Unauthorized("ليس لديك صلاحية الوصول");
             return Ok(await _userService.GetUserProfile(Id , UserId));
         }
         [HttpGet("MyProfile")]
@@ -45,15 +45,15 @@ namespace Graduation_Project.Controllers
         {
             var Id = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             if (Id is null)
-                return Unauthorized("You are Not Authorized");
-            return Ok(await _userService.GetMyProfile(Id));
+                return Unauthorized("ليس لديك صلاحية الوصول");
+            return Ok(await _userService.GetMyProfile(Id , User.FindFirstValue(ClaimTypes.Email)));
         }
         [HttpGet("UserData")]
         public async Task<ActionResult<UserProfileDto>> GetMyData()
         {
             var Id = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             if (Id is null)
-                return Unauthorized("You are Not Authorized");
+                return Unauthorized("ليس لديك صلاحية الوصول");
             return Ok(await _userService.GetUserData(Id));
         }
         [HttpPost]
@@ -64,7 +64,7 @@ namespace Graduation_Project.Controllers
                 return Unauthorized(new Response
                 {
                     Status = "Failed",
-                    Message = "You Are Not Authoized"
+                    Message = "ليس لديك صلاحية الوصول"
                 });
             var response = await _userService.UpdateProfile(input, UserId);
             if (response.Status == "Success")

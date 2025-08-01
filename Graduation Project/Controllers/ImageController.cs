@@ -29,20 +29,20 @@ namespace Graduation_Project.Controllers
                 return Unauthorized(new Response
                 {
                     Status = "Failed",
-                    Message = "You Are Not Authoized"
+                    Message = "ليس لديك صلاحية الوصول"
                 });
             var user = await _unitOfWork.Repositry<User, string>().GetAsync(UserId);
             string message = "";
             if (string.IsNullOrWhiteSpace(user.ImageUrl))
             {
                 user.ImageUrl = ImageSetting.Upload(imageDto.Image);
-                message = "Your Image Added Successfully";
+                message = "تم إضافة صورتك بنجاح";
             }
             else
             {
                 ImageSetting.Delete(user.ImageUrl);
                 user.ImageUrl = ImageSetting.Upload(imageDto.Image);
-                message = "Your Image Updated Successfully";
+                message = "تم تعديل صورتك بنجاح";
             }
             _unitOfWork.Repositry<User, string>().Update(user);
             await _unitOfWork.CompleteAsync();
@@ -60,7 +60,7 @@ namespace Graduation_Project.Controllers
                 return Unauthorized(new Response
                 {
                     Status = "Failed",
-                    Message = "You Are Not Authoized"
+                    Message = "ليس لديك صلاحية الوصول"
                 });
             var user = await _unitOfWork.Repositry<User, string>().GetAsync(UserId);
             
@@ -69,7 +69,7 @@ namespace Graduation_Project.Controllers
                 return Unauthorized(new Response
                 {
                     Status = "Failed",
-                    Message = "You Already Don't Has an Image"
+                    Message = "انت بالفعل لا تملك صورة"
                 });
             }
             else
@@ -82,7 +82,7 @@ namespace Graduation_Project.Controllers
             return new Response
             {
                 Status ="Success",
-                Message = "Your Image Deleted Successfully"
+                Message = "تم مسح صورتك بنجاح"
             };
         }
     }

@@ -1,8 +1,10 @@
 ﻿using Core_Layer.Data_Transfer_Object;
 using Core_Layer.Entities;
+using Core_Layer.Entities.Identity;
 using Core_Layer.Inetrfaces.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
@@ -15,8 +17,7 @@ namespace Graduation_Project.Controllers
     public class LikeController : ControllerBase
     {
         private readonly ILikeService _likeService;
-
-        public LikeController(ILikeService likeService)
+        public LikeController(ILikeService likeService, UserManager<AppUser> userManager)
         {
             _likeService = likeService;
         }
